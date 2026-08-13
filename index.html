@@ -14,16 +14,27 @@
 
     <header class="header">
 
-        <div class="logo">
-            Tereza Haze
-        </div>
+    <div class="logo">
+        Tereza Haze
+    </div>
+
+    <div class="header-right">
 
         <nav class="navigation">
-        <a href="index.html" class="active">DOMOV</a>
-        <a href="o-mne.html">O MNE</a>
-        <a href="info.html">INFO</a>
-        <a href="kontakt.html">KONTAKT</a>
+            <a href="index.html" class="active" data-sk="DOMOV" data-en="HOME">DOMOV</a>
+            <a href="o-mne.html" data-sk="O MNE" data-en="ABOUT ME">O MNE</a>
+            <a href="info.html" data-sk="INFO" data-en="INFO">INFO</a>
+            <a href="kontakt.html" data-sk="KONTAKT" data-en="CONTACT">KONTAKT</a>
         </nav>
+
+        <div class="language-selector">
+            <select id="language-select" aria-label="Choose language">
+                <option value="sk">SK</option>
+                <option value="en">EN</option>
+            </select>
+        </div>
+
+    </div>
 
     </header>
 
@@ -52,7 +63,7 @@
         <section class="categories">
 
     <a href="kridla.html" class="category">
-        <h2>KRÍDLA</h2>
+        <h2 data-sk="KRÍDLA" data-en="WINGS">KRÍDLA</h2>
 
         <img
             src="assets/images/Kridla.JPG"

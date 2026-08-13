@@ -1651,3 +1651,124 @@ SMALL PHONE
     }
 
 }
+
+/* ========================================
+   LANGUAGE SELECTOR
+======================================== */
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+
+/* ----------------------------------------
+   SELECTOR
+---------------------------------------- */
+
+.language-selector {
+    position: relative;
+}
+
+.language-selector select {
+    appearance: none;
+    -webkit-appearance: none;
+
+    background: transparent;
+
+    border: 1px solid #222;
+    border-radius: 0;
+
+    padding: 9px 32px 9px 13px;
+
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+
+    color: #111;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        color 0.2s ease;
+}
+
+
+/* Little arrow */
+
+.language-selector::after {
+    content: "⌄";
+
+    position: absolute;
+    right: 10px;
+    top: 50%;
+
+    transform: translateY(-55%);
+
+    font-size: 13px;
+
+    pointer-events: none;
+}
+
+
+/* Hover */
+
+.language-selector select:hover {
+    background: #111;
+    color: #f8f7f5;
+}
+
+
+/* Keep the dropdown readable */
+
+.language-selector select option {
+    background: #f8f7f5;
+    color: #111;
+}
+
+
+/* ========================================
+   MOBILE LANGUAGE SELECTOR
+======================================== */
+
+@media (max-width: 700px) {
+
+    .header-right {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+
+    .navigation {
+        width: 100%;
+    }
+
+
+    .language-selector {
+        margin-top: 2px;
+    }
+
+
+    .language-selector select {
+        padding: 8px 30px 8px 12px;
+        font-size: 11px;
+        letter-spacing: 1.3px;
+    }
+
+}
+
+
+@media (max-width: 430px) {
+
+    .language-selector select {
+        padding: 7px 28px 7px 11px;
+        font-size: 10px;
+    }
+
+}
