@@ -1,0 +1,488 @@
+/* ==========================================
+   NÁVRHY PAGE
+========================================== */
+
+.designs-page {
+
+    min-height: calc(100vh - 140px);
+
+    padding: 60px 3.5% 70px;
+
+    background:
+        radial-gradient(
+            circle at 50% 45%,
+            #ffffff 0%,
+            #f4f7fc 45%,
+            #eaf1fa 100%
+        );
+
+}
+
+
+/* ==========================================
+   TITLE
+========================================== */
+
+.designs-title {
+
+    text-align: center;
+
+    margin-bottom: 65px;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 25px;
+
+    line-height: 1.3;
+
+}
+
+
+.designs-title p {
+
+    margin: 0;
+
+}
+
+
+/* ==========================================
+   CAROUSEL
+========================================== */
+
+.design-carousel {
+
+    position: relative;
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+.design-viewport {
+
+    width: 100%;
+
+    overflow: hidden;
+
+}
+
+
+.design-track {
+
+    display: flex;
+
+    width: 100%;
+
+    transition:
+        transform 0.5s
+        cubic-bezier(
+            0.22,
+            0.61,
+            0.36,
+            1
+        );
+
+}
+
+
+/* ==========================================
+   INDIVIDUAL DESIGN
+========================================== */
+
+.design-card {
+
+    flex: 0 0 25%;
+
+    padding: 0 14px;
+
+    text-align: center;
+
+}
+
+
+/* IMAGE */
+
+.design-image {
+
+    width: 100%;
+
+    aspect-ratio: 0.72;
+
+    background: white;
+
+    overflow: hidden;
+
+}
+
+
+.design-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+}
+
+
+/* PRICE */
+
+.design-price {
+
+    margin-top: 22px;
+
+    color: #a7744e;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 19px;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+
+}
+
+
+/* OPTIONAL PRICE NOTE */
+
+.design-note {
+
+    margin-top: 8px;
+
+    color: #a7744e;
+
+    font-size: 16px;
+
+}
+
+
+/* ==========================================
+   ARROWS
+========================================== */
+
+.design-arrow {
+
+    position: absolute;
+
+    z-index: 10;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    width: 60px;
+
+    height: 60px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background:
+        rgba(
+            205,
+            205,
+            205,
+            0.75
+        );
+
+    color: #111;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 42px;
+
+    font-weight: 200;
+
+    cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+
+}
+
+
+.design-arrow:hover {
+
+    background:
+        rgba(
+            185,
+            185,
+            185,
+            0.9
+        );
+
+    transform:
+        translateY(-50%)
+        scale(1.05);
+
+}
+
+
+.design-arrow-left {
+
+    left: -25px;
+
+}
+
+
+.design-arrow-right {
+
+    right: -25px;
+
+}
+
+
+/* ==========================================
+   COUNTER
+========================================== */
+
+.design-counter {
+
+    margin-top: 35px;
+
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 13px;
+
+    letter-spacing: 3px;
+
+    opacity: 0.55;
+
+}
+
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width: 1000px) {
+
+    .designs-page {
+
+        padding-left: 5%;
+
+        padding-right: 5%;
+
+    }
+
+
+    .designs-title {
+
+        font-size: 22px;
+
+        margin-bottom: 45px;
+
+    }
+
+
+    .design-card {
+
+        flex-basis: 50%;
+
+        padding: 0 10px;
+
+    }
+
+
+    .design-arrow {
+
+        width: 50px;
+
+        height: 50px;
+
+        font-size: 35px;
+
+    }
+
+
+    .design-arrow-left {
+
+        left: -18px;
+
+    }
+
+
+    .design-arrow-right {
+
+        right: -18px;
+
+    }
+
+}
+
+
+/* ==========================================
+   PHONE
+========================================== */
+
+@media (max-width: 600px) {
+
+    .designs-page {
+
+        padding:
+            35px
+            7%
+            50px;
+
+    }
+
+
+    .designs-title {
+
+        font-size: 20px;
+
+        margin-bottom: 35px;
+
+    }
+
+
+    .design-card {
+
+        flex-basis: 100%;
+
+        padding:
+            0
+            18px;
+
+    }
+
+
+    .design-image {
+
+        aspect-ratio: 0.72;
+
+    }
+
+
+    .design-price {
+
+        margin-top: 18px;
+
+        font-size: 18px;
+
+    }
+
+
+    .design-note {
+
+        font-size: 15px;
+
+    }
+
+
+    .design-arrow {
+
+        width: 44px;
+
+        height: 44px;
+
+        font-size: 31px;
+
+    }
+
+
+    .design-arrow-left {
+
+        left: -12px;
+
+    }
+
+
+    .design-arrow-right {
+
+        right: -12px;
+
+    }
+
+
+    .design-counter {
+
+        margin-top: 28px;
+
+        font-size: 11px;
+
+    }
+
+}
+
+
+/* ==========================================
+   SMALL PHONE
+========================================== */
+
+@media (max-width: 400px) {
+
+    .designs-page {
+
+        padding-left: 5%;
+
+        padding-right: 5%;
+
+    }
+
+
+    .designs-title {
+
+        font-size: 18px;
+
+    }
+
+
+    .design-card {
+
+        padding:
+            0
+            12px;
+
+    }
+
+
+    .design-arrow {
+
+        width: 38px;
+
+        height: 38px;
+
+        font-size: 27px;
+
+    }
+
+
+    .design-arrow-left {
+
+        left: -8px;
+
+    }
+
+
+    .design-arrow-right {
+
+        right: -8px;
+
+    }
+
+}

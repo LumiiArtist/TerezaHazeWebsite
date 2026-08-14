@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title data-sk="Návrhy | Tereza Haze" data-en="Designs | Tereza Haze">
+        Návrhy | Tereza Haze
+    </title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- CSS specifically for this page -->
+    <link rel="stylesheet" href="css/navrhy.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <a
+            href="index.html"
+            class="logo"
+        >
+            Tereza Haze
+        </a>
+
+
+        <div class="header-right">
+
+            <nav class="navigation">
+
+                <a
+                    href="index.html"
+                    data-sk="DOMOV"
+                    data-en="HOME"
+                >
+                    DOMOV
+                </a>
+
+
+                <a
+                    href="o-mne.html"
+                    data-sk="O MNE"
+                    data-en="ABOUT ME"
+                >
+                    O MNE
+                </a>
+
+
+                <a
+                    href="info.html"
+                    data-sk="INFO"
+                    data-en="INFO"
+                >
+                    INFO
+                </a>
+
+
+                <a
+                    href="kontakt.html"
+                    data-sk="KONTAKT"
+                    data-en="CONTACT"
+                >
+                    KONTAKT
+                </a>
+
+            </nav>
+
+
+            <!-- LANGUAGE SELECTOR -->
+
+            <div class="language-selector">
+
+                <select
+                    id="language-select"
+                    aria-label="Choose language"
+                >
+
+                    <option
+                        value="sk"
+                        data-sk="SK"
+                        data-en="SK"
+                    >
+                        SK
+                    </option>
+
+
+                    <option
+                        value="en"
+                        data-sk="EN"
+                        data-en="EN"
+                    >
+                        EN
+                    </option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- NAVRHY PAGE -->
+
+    <main class="designs-page">
+
+
+        <section class="designs-section">
+
+
+            <!-- TITLE -->
+
+            <div class="designs-title">
+
+                <p
+                    data-sk="Potencionálne návrhy, ktoré by som vedela vyrobiť s"
+                    data-en="Potential designs that I could make with"
+                >
+                    Potencionálne návrhy, ktoré by som vedela vyrobiť s
+                </p>
+
+
+                <p>
+
+                    <u
+                        data-sk="približnými cenami"
+                        data-en="approximate prices"
+                    >
+                        približnými cenami
+                    </u>
+
+                </p>
+
+            </div>
+
+
+
+            <!-- CAROUSEL -->
+
+            <div class="design-carousel">
+
+
+                <button
+                    class="design-arrow design-arrow-left"
+                    id="design-prev"
+                    aria-label="Previous design"
+                    data-sk="‹"
+                    data-en="‹"
+                >
+                    ‹
+                </button>
+
+
+                <div class="design-viewport">
+
+                    <div
+                        class="design-track"
+                        id="design-track"
+                    >
+                    </div>
+
+                </div>
+
+
+                <button
+                    class="design-arrow design-arrow-right"
+                    id="design-next"
+                    aria-label="Next design"
+                    data-sk="›"
+                    data-en="›"
+                >
+                    ›
+                </button>
+
+
+            </div>
+
+
+
+            <!-- COUNTER -->
+
+            <div
+                class="design-counter"
+                id="design-counter"
+            >
+                01 / 20
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- LANGUAGE + CAROUSEL SCRIPTS -->
+
+    <script src="js/script.js"></script>
+    <script src="js/navrhy.js"></script>
+
+</body>
+
+</html>

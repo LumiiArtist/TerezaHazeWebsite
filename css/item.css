@@ -1,0 +1,240 @@
+/* ==========================================
+   ITEM PAGE
+========================================== */
+
+.item-page {
+
+    min-height: calc(100vh - 140px);
+
+    padding: 60px 5% 80px;
+
+    background:
+        radial-gradient(
+            circle at 50% 45%,
+            #ffffff 0%,
+            #f4f7fc 45%,
+            #eaf1fa 100%
+        );
+
+}
+
+
+
+/* ==========================================
+   LAYOUT
+========================================== */
+
+.item-layout {
+
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(500px, 1fr)
+        minmax(320px, 480px);
+
+    gap: 80px;
+
+    align-items: start;
+
+}
+
+
+
+/* ==========================================
+   TITLE
+========================================== */
+
+.item-title {
+
+    margin: 0 0 60px;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 56px;
+
+    line-height: 1.1;
+
+}
+
+
+
+/* ==========================================
+   SECTIONS
+========================================== */
+
+.item-section {
+
+    margin-bottom: 60px;
+
+}
+
+
+.item-label {
+
+    display: inline-block;
+
+    margin-bottom: 22px;
+
+    padding: 8px 14px;
+
+    border-radius: 12px;
+
+    background: #e7eaf5;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+}
+
+
+.item-text {
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+}
+
+
+.item-text p {
+
+    margin: 0 0 12px;
+
+}
+
+
+.item-text strong {
+
+    font-style: italic;
+
+}
+
+
+
+/* ==========================================
+   IMAGE
+========================================== */
+
+.item-media {
+
+    text-align: center;
+
+}
+
+
+.item-media img {
+
+    width: 100%;
+
+    display: block;
+
+}
+
+
+.gallery-link {
+
+    display: inline-block;
+
+    margin-top: 24px;
+
+    color: inherit;
+
+    font-size: 18px;
+
+}
+
+
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width: 1000px) {
+
+    .item-layout {
+
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+
+    }
+
+    .item-title {
+
+        font-size: 42px;
+
+        text-align: center;
+
+        margin-bottom: 40px;
+
+    }
+
+    .item-media {
+
+        max-width: 550px;
+
+        margin: 0 auto;
+
+    }
+
+}
+
+
+
+/* ==========================================
+   PHONE
+========================================== */
+
+@media (max-width: 600px) {
+
+    .item-page {
+
+        padding: 35px 7% 50px;
+
+    }
+
+    .item-title {
+
+        font-size: 34px;
+
+    }
+
+    .item-text {
+
+        font-size: 16px;
+
+    }
+
+    .gallery-link {
+
+        font-size: 16px;
+
+    }
+
+    .item-section {
+
+        margin-bottom: 40px;
+
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .item-media {
+
+        order: -1;
+
+    }
+
+}

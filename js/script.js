@@ -1,51 +1,936 @@
 /* ========================================
+   ITEM DATABASE
+======================================== */
+
+const items = {
+
+    wet: {
+
+        title: {
+            sk: "Mokrý",
+            en: "Wet"
+        },
+
+        image: "assets/images/topy/2.jpg",
+
+        production: {
+            sk: "len prenájom alebo kúpa",
+            en: "rental or purchase only"
+        },
+
+        availability: {
+            sk: "dostupný 1 kus na prenájom alebo kúpu",
+            en: "1 piece available for rental or purchase"
+        },
+
+        other: {
+            sk: "top je pomerne krehký, vhodný skôr len na fotenia a pózovanie",
+            en: "the top is relatively fragile and best suited for photoshoots and posing"
+        },
+
+        purchase: "80€",
+
+        privateRental: "30€ / deň + doprava",
+
+        commercialRental: "50€ / deň + doprava",
+
+        collaboration: {
+            sk: "Napíšte mi mail alebo správu na Instagrame",
+            en: "Send me an email or Instagram message"
+        },
+
+        gallery: "#"
+
+    },
+
+
+    bloody: {
+
+        title: {
+            sk: "Krvavý",
+            en: "Bloody"
+        },
+
+        image: "assets/images/topy/redwhite.jpg",
+
+        production: {
+            sk: "len prenájom alebo kúpa",
+            en: "rental or purchase only"
+        },
+
+        availability: {
+            sk: "dostupný 1 kus na prenájom alebo kúpu",
+            en: "1 piece available for rental or purchase"
+        },
+
+        other: {
+            sk: "top je pomerne krehký, vhodný skôr len na fotenia a pózovanie",
+            en: "the top is relatively fragile and best suited for photoshoots and posing"
+        },
+
+        purchase: "80€",
+
+        privateRental: "30€ / deň + doprava",
+
+        commercialRental: "50€ / deň + doprava",
+
+        collaboration: {
+            sk: "Napíšte mi mail alebo správu na Instagrame",
+            en: "Send me an email or Instagram message"
+        },
+
+        gallery: "#"
+
+    },
+
+
+    chrome: {
+
+        title: {
+            sk: "Chrome",
+            en: "Chrome"
+        },
+
+        image: "assets/images/topy/purple34.JPG",
+
+        production: {
+            sk: "len prenájom alebo kúpa",
+            en: "rental or purchase only"
+        },
+
+        availability: {
+            sk: "dostupný 1 kus na prenájom alebo kúpu",
+            en: "1 piece available for rental or purchase"
+        },
+
+        other: {
+            sk: "top je pomerne krehký, vhodný skôr len na fotenia a pózovanie",
+            en: "the top is relatively fragile and best suited for photoshoots and posing"
+        },
+
+        purchase: "80€",
+
+        privateRental: "30€ / deň + doprava",
+
+        commercialRental: "50€ / deň + transport",
+
+        collaboration: {
+            sk: "Napíšte mi mail alebo správu na Instagrame",
+            en: "Send me an email or Instagram message"
+        },
+
+        gallery: "#"
+
+    },
+
+
+    butterfly: {
+
+        title: {
+            sk: "Motýľ",
+            en: "Butterfly"
+        },
+
+        image: "assets/images/topy/motylie34.jpg",
+
+        production: {
+            sk: "len prenájom alebo kúpa",
+            en: "rental or purchase only"
+        },
+
+        availability: {
+            sk: "dostupný 1 kus na prenájom alebo kúpu",
+            en: "1 piece available for rental or purchase"
+        },
+
+        other: {
+            sk: "top je pomerne krehký, vhodný skôr len na fotenia a pózovanie",
+            en: "the top is relatively fragile and best suited for photoshoots and posing"
+        },
+
+        purchase: "80€",
+
+        privateRental: "30€ / deň + doprava",
+
+        commercialRental: "50€ / deň + doprava",
+
+        collaboration: {
+            sk: "Napíšte mi mail alebo správu na Instagrame",
+            en: "Send me an email or Instagram message"
+        },
+
+        gallery: "#"
+
+    },
+
+
+    cyber: {
+
+        title: {
+            sk: "Cyber",
+            en: "Cyber"
+        },
+
+        image: "assets/images/topy/cyberpunk.jpg",
+
+        production: {
+            sk: "len prenájom alebo kúpa",
+            en: "rental or purchase only"
+        },
+
+        availability: {
+            sk: "dostupný 1 kus na prenájom alebo kúpu",
+            en: "1 piece available for rental or purchase"
+        },
+
+        other: {
+            sk: "top je pomerne krehký, vhodný skôr len na fotenia a pózovanie",
+            en: "the top is relatively fragile and best suited for photoshoots and posing"
+        },
+
+        purchase: "80€",
+
+        privateRental: "30€ / deň + doprava",
+
+        commercialRental: "50€ / deň + doprava",
+
+        collaboration: {
+            sk: "Napíšte mi mail alebo správu na Instagrame",
+            en: "Send me an email or Instagram message"
+        },
+
+        gallery: "#"
+
+    },
+
+
+    mosaic: {
+
+        title: {
+            sk: "Mozaika",
+            en: "Mosaic"
+        },
+
+        image: "assets/images/topy/minecraft34.jpg",
+
+        production: {
+            sk: "len prenájom alebo kúpa",
+            en: "rental or purchase only"
+        },
+
+        availability: {
+            sk: "dostupný 1 kus na prenájom alebo kúpu",
+            en: "1 piece available for rental or purchase"
+        },
+
+        other: {
+            sk: "top je pomerne krehký, vhodný skôr len na fotenia a pózovanie",
+            en: "the top is relatively fragile and best suited for photoshoots and posing"
+        },
+
+        purchase: "80€",
+
+        privateRental: "30€ / deň + doprava",
+
+        commercialRental: "50€ / deň + transport",
+
+        collaboration: {
+            sk: "Napíšte mi mail alebo správu na Instagrame",
+            en: "Send me an email or Instagram message"
+        },
+
+        gallery: "#"
+
+    },
+
+large: {
+
+    title: {
+        sk: "Veľké",
+        en: "Large"
+    },
+
+    image: "assets/images/kridla/AngelicStraight.png",
+
+    production: {
+        sk: "len prenájom alebo kúpa",
+        en: "rental or purchase only"
+    },
+
+    availability: {
+        sk: "dostupný 1 kus na prenájom alebo kúpu",
+        en: "1 piece available for rental or purchase"
+    },
+
+    other: {
+        sk: "Veľké krídla vhodné na fotenia, kostýmy, cosplay a ďalšie projekty.",
+        en: "Large wings suitable for photoshoots, costumes, cosplay and other projects."
+    },
+
+    purchase: "80€",
+    privateRental: "30€ / deň + doprava",
+    commercialRental: "50€ / deň + doprava",
+
+    collaboration: {
+        sk: "Napíšte mi mail alebo správu na Instagrame",
+        en: "Send me an email or Instagram message"
+    },
+
+    gallery: "#"
+
+},
+
+
+folded: {
+
+    title: {
+        sk: "Sklopené",
+        en: "Folded"
+    },
+
+    image: "assets/images/kridla/Angelic34.png",
+
+    production: {
+        sk: "len prenájom alebo kúpa",
+        en: "rental or purchase only"
+    },
+
+    availability: {
+        sk: "dostupný 1 kus na prenájom alebo kúpu",
+        en: "1 piece available for rental or purchase"
+    },
+
+    other: {
+        sk: "Krídla v sklopenej polohe.",
+        en: "Wings shown in their folded position."
+    },
+
+    purchase: "80€",
+    privateRental: "30€ / deň + doprava",
+    commercialRental: "50€ / deň + doprava",
+
+    collaboration: {
+        sk: "Napíšte mi mail alebo správu na Instagrame",
+        en: "Send me an email or Instagram message"
+    },
+
+    gallery: "#"
+
+},
+
+
+medium: {
+
+    title: {
+        sk: "Stredné",
+        en: "Medium"
+    },
+
+    image: "assets/images/kridla/Screenshot 2026-08-12 201948.png",
+
+    production: {
+        sk: "len prenájom alebo kúpa",
+        en: "rental or purchase only"
+    },
+
+    availability: {
+        sk: "dostupný 1 kus na prenájom alebo kúpu",
+        en: "1 piece available for rental or purchase"
+    },
+
+    other: {
+        sk: "Stredne veľké krídla vhodné na rôzne outfity, fotenia a kostýmy.",
+        en: "Medium-sized wings suitable for outfits, photoshoots and costumes."
+    },
+
+    purchase: "80€",
+    privateRental: "30€ / deň + doprava",
+    commercialRental: "50€ / deň + doprava",
+
+    collaboration: {
+        sk: "Napíšte mi mail alebo správu na Instagrame",
+        en: "Send me an email or Instagram message"
+    },
+
+    gallery: "#"
+
+},
+
+
+small: {
+
+    title: {
+        sk: "Malé",
+        en: "Small"
+    },
+
+    image: "assets/images/kridla/something.png",
+
+    production: {
+        sk: "len prenájom alebo kúpa",
+        en: "rental or purchase only"
+    },
+
+    availability: {
+        sk: "dostupný 1 kus na prenájom alebo kúpu",
+        en: "1 piece available for rental or purchase"
+    },
+
+    other: {
+        sk: "Menšie krídla vhodné najmä na outfity, fotenia a doplnky ku kostýmom.",
+        en: "Smaller wings suitable mainly for outfits, photoshoots and costume accessories."
+    },
+
+    purchase: "80€",
+    privateRental: "30€ / deň + doprava",
+    commercialRental: "50€ / deň + doprava",
+
+    collaboration: {
+        sk: "Napíšte mi mail alebo správu na Instagrame",
+        en: "Send me an email or Instagram message"
+    },
+
+    gallery: "#"
+
+},
+
+
+"butterfly-wings": {
+
+    title: {
+        sk: "Motýlie",
+        en: "Butterfly"
+    },
+
+    image: "assets/images/kridla/MotylieTa.jpg",
+
+    production: {
+        sk: "len prenájom alebo kúpa",
+        en: "rental or purchase only"
+    },
+
+    availability: {
+        sk: "dostupný 1 kus na prenájom alebo kúpu",
+        en: "1 piece available for rental or purchase"
+    },
+
+    other: {
+        sk: "Motýlie krídla vhodné na fotenia, kostýmy a cosplay.",
+        en: "Butterfly wings suitable for photoshoots, costumes and cosplay."
+    },
+
+    purchase: "80€",
+    privateRental: "30€ / deň + doprava",
+    commercialRental: "50€ / deň + doprava",
+
+    collaboration: {
+        sk: "Napíšte mi mail alebo správu na Instagrame",
+        en: "Send me an email or Instagram message"
+    },
+
+    gallery: "#"
+
+},
+
+
+metal: {
+
+    title: {
+        sk: "Kovové",
+        en: "Metal"
+    },
+
+    image: "assets/images/kridla/MetalStatue.jpg",
+
+    production: {
+        sk: "len prenájom alebo kúpa",
+        en: "rental or purchase only"
+    },
+
+    availability: {
+        sk: "dostupný 1 kus na prenájom alebo kúpu",
+        en: "1 piece available for rental or purchase"
+    },
+
+    other: {
+        sk: "Kovové krídla s výrazným sochárskym vzhľadom.",
+        en: "Metal wings with a distinctive sculptural appearance."
+    },
+
+    purchase: "80€",
+    privateRental: "30€ / deň + doprava",
+    commercialRental: "50€ / deň + doprava",
+
+    collaboration: {
+        sk: "Napíšte mi mail alebo správu na Instagrame",
+        en: "Send me an email or Instagram message"
+    },
+
+    gallery: "#"
+
+},
+
+
+"other-1": {
+
+    title: {
+        sk: "Ostatné 1",
+        en: "Other 1"
+    },
+
+    image: "assets/images/placeholder.jpg",
+
+    production: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    availability: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    other: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    purchase: "—",
+    privateRental: "—",
+    commercialRental: "—",
+
+    collaboration: {
+        sk: "Napíšte mi mail alebo správu na Instagrame",
+        en: "Send me an email or Instagram message"
+    },
+
+    gallery: "#"
+
+},
+
+
+"other-2": {
+
+    title: {
+        sk: "Ostatné 2",
+        en: "Other 2"
+    },
+
+    image: "assets/images/placeholder.jpg",
+
+    production: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    availability: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    other: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    purchase: "—",
+    privateRental: "—",
+    commercialRental: "—",
+
+    collaboration: {
+        sk: "Napíšte mi mail alebo správu na Instagrame",
+        en: "Send me an email or Instagram message"
+    },
+
+    gallery: "#"
+
+},
+
+
+"other-3": {
+
+    title: {
+        sk: "Ostatné 3",
+        en: "Other 3"
+    },
+
+    image: "assets/images/placeholder.jpg",
+
+    production: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    availability: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    other: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    purchase: "—",
+    privateRental: "—",
+    commercialRental: "—",
+
+    collaboration: {
+        sk: "Napíšte mi mail alebo správu na Instagrame",
+        en: "Send me an email or Instagram message"
+    },
+
+    gallery: "#"
+
+},
+
+
+"other-4": {
+
+    title: {
+        sk: "Ostatné 4",
+        en: "Other 4"
+    },
+
+    image: "assets/images/placeholder.jpg",
+
+    production: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    availability: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    other: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    purchase: "—",
+    privateRental: "—",
+    commercialRental: "—",
+
+    collaboration: {
+        sk: "Napíšte mi mail alebo správu na Instagrame",
+        en: "Send me an email or Instagram message"
+    },
+
+    gallery: "#"
+
+},
+
+
+"other-5": {
+
+    title: {
+        sk: "Ostatné 5",
+        en: "Other 5"
+    },
+
+    image: "assets/images/placeholder.jpg",
+
+    production: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    availability: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    other: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    purchase: "—",
+    privateRental: "—",
+    commercialRental: "—",
+
+    collaboration: {
+        sk: "Napíšte mi mail alebo správu na Instagrame",
+        en: "Send me an email or Instagram message"
+    },
+
+    gallery: "#"
+
+},
+
+
+"other-6": {
+
+    title: {
+        sk: "Ostatné 6",
+        en: "Other 6"
+    },
+
+    image: "assets/images/placeholder.jpg",
+
+    production: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    availability: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    other: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    purchase: "—",
+    privateRental: "—",
+    commercialRental: "—",
+
+    collaboration: {
+        sk: "Napíšte mi mail alebo správu na Instagrame",
+        en: "Send me an email or Instagram message"
+    },
+
+    gallery: "#"
+
+}
+
+};
+
+
+
+/* ========================================
+   GET SELECTED ITEM
+======================================== */
+
+const urlParams = new URLSearchParams(window.location.search);
+
+const itemId = urlParams.get("item");
+
+const selectedItem = items[itemId];
+
+
+
+/* ========================================
+   LOAD ITEM
+======================================== */
+
+function loadItem() {
+
+    // If this is not the item page,
+    // simply stop here.
+
+    if (!document.getElementById("item-title")) {
+        return;
+    }
+
+
+    // If an invalid item was requested
+
+    if (!selectedItem) {
+
+        document.getElementById("item-title").textContent =
+            "Item not found";
+
+        document.title = "Item not found | Tereza Haze";
+
+        return;
+    }
+
+
+    // Title
+
+    document.getElementById("item-title").dataset.sk =
+        selectedItem.title.sk;
+
+    document.getElementById("item-title").dataset.en =
+        selectedItem.title.en;
+
+
+    // Production
+
+    document.getElementById("item-production").dataset.sk =
+        selectedItem.production.sk;
+
+    document.getElementById("item-production").dataset.en =
+        selectedItem.production.en;
+
+
+    // Availability
+
+    document.getElementById("item-availability").dataset.sk =
+        selectedItem.availability.sk;
+
+    document.getElementById("item-availability").dataset.en =
+        selectedItem.availability.en;
+
+
+    // Other
+
+    document.getElementById("item-other").dataset.sk =
+        selectedItem.other.sk;
+
+    document.getElementById("item-other").dataset.en =
+        selectedItem.other.en;
+
+
+    // Collaboration
+
+    document.getElementById("item-collaboration").dataset.sk =
+        selectedItem.collaboration.sk;
+
+    document.getElementById("item-collaboration").dataset.en =
+        selectedItem.collaboration.en;
+
+
+    // Prices
+
+    document.getElementById("item-purchase").textContent =
+        selectedItem.purchase;
+
+    document.getElementById("item-private-rental").textContent =
+        selectedItem.privateRental;
+
+    document.getElementById("item-commercial-rental").textContent =
+        selectedItem.commercialRental;
+
+
+    // Image
+
+    const image = document.getElementById("item-image");
+
+    image.src = selectedItem.image;
+
+    image.alt = selectedItem.title.sk;
+
+
+    // Gallery
+
+    document.getElementById("item-gallery").href =
+        selectedItem.gallery;
+
+
+    // Page title
+
+    document.getElementById("item-page-title").dataset.sk =
+        `${selectedItem.title.sk} | Tereza Haze`;
+
+    document.getElementById("item-page-title").dataset.en =
+        `${selectedItem.title.en} | Tereza Haze`;
+
+}
+
+
+
+/* ========================================
    LANGUAGE SWITCHER
 ======================================== */
 
-const languageSelect = document.getElementById("language-select");
+const languageSelect =
+    document.getElementById("language-select");
 
 
 // Get saved language
-let currentLanguage = localStorage.getItem("language") || "sk";
+
+let currentLanguage =
+    localStorage.getItem("language") || "sk";
 
 
 // Set selector to saved language
+
 if (languageSelect) {
+
     languageSelect.value = currentLanguage;
+
 }
 
 
-// Change all translated text
+
+/* ========================================
+   CHANGE LANGUAGE
+======================================== */
+
 function setLanguage(language) {
 
-    document.querySelectorAll("[data-sk][data-en]").forEach(element => {
+    document
+        .querySelectorAll("[data-sk][data-en]")
+        .forEach(element => {
 
-        element.textContent = element.dataset[language];
+            element.textContent =
+                element.dataset[language];
 
-    });
+        });
 
 
     // Update HTML language
-    document.documentElement.lang = language === "sk" ? "sk" : "en";
+
+    document.documentElement.lang =
+        language === "sk" ? "sk" : "en";
+
+
+    // Update page title
+
+    const title =
+        document.querySelector("title[data-sk][data-en]");
+
+    if (title) {
+
+        document.title =
+            title.dataset[language];
+
+    }
 
 
     // Remember language
-    localStorage.setItem("language", language);
+
+    localStorage.setItem(
+        "language",
+        language
+    );
+
+
+    // Tell other scripts that language changed
+
+    window.dispatchEvent(
+        new Event("languageChanged")
+    );
 
 }
 
 
-// Change language when selector changes
+
+/* ========================================
+   LANGUAGE SELECT CHANGE
+======================================== */
+
 if (languageSelect) {
 
-    languageSelect.addEventListener("change", function () {
+    languageSelect.addEventListener(
+        "change",
+        function () {
 
-        setLanguage(this.value);
+            setLanguage(this.value);
 
-    });
+        }
+    );
 
 }
 
 
-// Apply language when page loads
+
+/* ========================================
+   INITIALIZE
+======================================== */
+
+// First load the item data
+
+loadItem();
+
+
+// Then apply the saved language
+
 setLanguage(currentLanguage);
+
