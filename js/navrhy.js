@@ -23,99 +23,99 @@
 const designs = [
 
     {
-        image: "navrh01.jpg",
+        image: "IMG_6996 2.JPG",
         price: "400€"
     },
 
     {
-        image: "navrh02.jpg",
+        image: "IMG_6999 2.JPG",
         price: "600€"
     },
 
     {
-        image: "navrh03.jpg",
-        price: "600€ / 3000€",
+        image: "IMG_7003 2.JPG",
+        price: "sdfg",
         noteSk: "(podľa typu materiálu)",
         noteEn: "(depending on the type of material)"
     },
 
     {
-        image: "navrh04.jpg",
+        image: "IMG_6997 2.JPG",
         price: "500€"
     },
 
     {
-        image: "navrh05.jpg",
+        image: "IMG_7001 2.jpg",
         price: "???€"
     },
 
     {
-        image: "navrh06.jpg",
+        image: "IMG_7020.jpg",
         price: "???€"
     },
 
     {
-        image: "navrh07.jpg",
+        image: "IMG_7012 2.jpg",
         price: "???€"
     },
 
     {
-        image: "navrh08.jpg",
+        image: "IMG_7008.jpg",
+        price: "???€"
+    },
+
+    // {
+    //     image: "navrh09.jpg",
+    //     price: "???€"
+    // },
+
+    {
+        image: "IMG_7013.jpg",
         price: "???€"
     },
 
     {
-        image: "navrh09.jpg",
+        image: "IMG_7010.jpg",
         price: "???€"
     },
 
     {
-        image: "navrh10.jpg",
+        image: "IMG_7016.jpg",
         price: "???€"
     },
 
     {
-        image: "navrh11.jpg",
+        image: "IMG_7005.jpg",
         price: "???€"
     },
 
+    // {
+    //     image: "navrh14.jpg",
+    //     price: "???€"
+    // },
+
     {
-        image: "navrh12.jpg",
+        image: "IMG_6998 2.jpg",
         price: "???€"
     },
 
-    {
-        image: "navrh13.jpg",
-        price: "???€"
-    },
+    // {
+    //     image: "IMG_7011.JPG",
+    //     price: "???€"
+    // },
+
+    // {
+    //     image: "navrh17.jpg",
+    //     price: "???€"
+    // },
+
+    // {
+    //     image: "navrh18.jpg",
+    //     price: "???€"
+    // },
 
     {
-        image: "navrh14.jpg",
-        price: "???€"
-    },
-
-    {
-        image: "navrh15.jpg",
-        price: "???€"
-    },
-
-    {
-        image: "navrh16.jpg",
-        price: "???€"
-    },
-
-    {
-        image: "navrh17.jpg",
-        price: "???€"
-    },
-
-    {
-        image: "navrh18.jpg",
-        price: "???€"
-    },
-
-    {
-        image: "navrh19.jpg",
+        image: "IMG_7014 3.jpg",
         price: "???€"
     },
 

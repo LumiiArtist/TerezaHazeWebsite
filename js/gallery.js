@@ -24,8 +24,14 @@ const galleryData = {
             "assets/images/cs/IMG_7238761.jpg",
             "assets/images/cs/1808_Tereza_166_FB (1).jpg",
             "assets/images/cs/Cyber Ciri.jpg",
-            "assets/images/ostatne/costumes/4.jpg",
-            "assets/images/ostatne/costumes/4.jpg"
+            "assets/images/cs/IMG_1918.png",
+            "assets/images/cs/IMG_4578.jpg",
+            "assets/images/cs/Medusa.JPG",
+            "assets/images/cs/vila.jpg",
+            "assets/images/cs/armor.jpg",
+            "assets/images/cs/poison.jpg",
+            "assets/images/cs/medusa2.jpg",
+            "assets/images/cs/Mercy1.jpg",
         ]
 
     },
@@ -48,10 +54,10 @@ const galleryData = {
         },
 
         images: [
-            "assets/images/ostatne/props/1.jpg",
-            "assets/images/ostatne/props/2.jpg",
-            "assets/images/ostatne/props/3.jpg",
-            "assets/images/ostatne/props/4.jpg"
+            "assets/images/rekvizity/5E1D54E6-C6A9-454F-8494-F90CB84E178C.jpg",
+            "assets/images/rekvizity/4B4B381C-E049-4B1C-952A-343FD5624E52.jpg",
+            "assets/images/rekvizity/IMG_3256.jpg",
+            "assets/images/rekvizity/IMG_5133.png",
         ]
 
     },
@@ -74,10 +80,10 @@ const galleryData = {
         },
 
         images: [
-            "assets/images/ostatne/clothing/1.jpg",
-            "assets/images/ostatne/clothing/2.jpg",
-            "assets/images/ostatne/clothing/3.jpg",
-            "assets/images/ostatne/clothing/4.jpg"
+            "assets/images/oblecenie a outfity/IMG_0919.jpg",
+            "assets/images/oblecenie a outfity/IMG_5479.jpg",
+            "assets/images/oblecenie a outfity/IMG_9158.jpg",
+            "assets/images/oblecenie a outfity/IMG_2242.jpg",
         ]
 
     }

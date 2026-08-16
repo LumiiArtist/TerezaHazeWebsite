@@ -253,7 +253,7 @@ large: {
     image: "assets/images/kridla/idk.png",
 
     production: {
-        sk: "len prenájom alebo kúpa",
+        sk: "3 týždne od nadobudnutia materiálov",
         en: "rental or purchase only"
     },
 
@@ -588,11 +588,11 @@ metal: {
 "other-4": {
 
     title: {
-        sk: "Ostatné 4",
-        en: "Other 4"
+        sk: "Centipede",
+        en: "Centipede"
     },
 
-    image: "assets/images/placeholder.jpg",
+    image: "assets/images/ostatne/IMG_07-04-2025-20-42-43.jpg",
 
     production: {
         sk: "Informácie budú doplnené.",
@@ -618,7 +618,7 @@ metal: {
         en: "Send me an email or Instagram message"
     },
 
-    gallery: "#"
+    gallery: "https://www.instagram.com/p/DIMt07GMWGC/?img_index=1"
 
 },
 
@@ -626,11 +626,11 @@ metal: {
 "other-5": {
 
     title: {
-        sk: "Ostatné 5",
-        en: "Other 5"
+        sk: "Medusa Head",
+        en: "Medusa Head"
     },
 
-    image: "assets/images/placeholder.jpg",
+    image: "assets/images/ostatne/ELG-20220812-0461-404 2.jpg",
 
     production: {
         sk: "Informácie budú doplnené.",
@@ -656,7 +656,7 @@ metal: {
         en: "Send me an email or Instagram message"
     },
 
-    gallery: "#"
+    gallery: "https://www.instagram.com/p/CECjLwTDt05/?img_index=1"
 
 },
 
@@ -664,11 +664,11 @@ metal: {
 "other-6": {
 
     title: {
-        sk: "Ostatné 6",
-        en: "Other 6"
+        sk: "Cowboy Hat",
+        en: "Cowboy Hat"
     },
 
-    image: "assets/images/placeholder.jpg",
+    image: "assets/images/ostatne/IMG_7237.png",
 
     production: {
         sk: "Informácie budú doplnené.",
@@ -694,7 +694,7 @@ metal: {
         en: "Send me an email or Instagram message"
     },
 
-    gallery: "#"
+    gallery: "https://www.instagram.com/p/DE0f7j1M2fd/?img_index=1"
 
 },
 
@@ -705,7 +705,7 @@ metal: {
         en: "Other 7"
     },
 
-    image: "assets/images/placeholder.jpg",
+    image: "assets/images/ostatne/IMG_7653.jpg",
 
     production: {
         sk: "Informácie budú doplnené.",
@@ -731,7 +731,7 @@ metal: {
         en: "Send me an email or Instagram message"
     },
 
-    gallery: "#"
+    gallery: "https://www.instagram.com/p/DE0f7j1M2fd/?img_index=1"
 
 }
 
