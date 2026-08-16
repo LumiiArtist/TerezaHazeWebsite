@@ -39,7 +39,7 @@ const items = {
             en: "Send me an email or Instagram message"
         },
 
-        gallery: "#"
+        gallery: "https://www.instagram.com/p/Daic8nbKU4b/"
 
     },
 
@@ -51,7 +51,7 @@ const items = {
             en: "Bloody"
         },
 
-        image: "assets/images/topy/redwhite.jpg",
+        image: "assets/images/topy/redblack.jpg",
 
         production: {
             sk: "len prenájom alebo kúpa",
@@ -79,7 +79,7 @@ const items = {
             en: "Send me an email or Instagram message"
         },
 
-        gallery: "#"
+        gallery: "https://www.instagram.com/p/DUi8b3JiBjK/?img_index=1"
 
     },
 
@@ -87,11 +87,11 @@ const items = {
     chrome: {
 
         title: {
-            sk: "Chrome",
-            en: "Chrome"
+            sk: "Chrome top",
+            en: "Chrome top"
         },
 
-        image: "assets/images/topy/purple34.JPG",
+        image: "assets/images/topy/purplefront.JPG",
 
         production: {
             sk: "len prenájom alebo kúpa",
@@ -119,7 +119,7 @@ const items = {
             en: "Send me an email or Instagram message"
         },
 
-        gallery: "#"
+        gallery: "https://www.instagram.com/p/DMkLRYcs9zd/?img_index=1"
 
     },
 
@@ -127,11 +127,11 @@ const items = {
     butterfly: {
 
         title: {
-            sk: "Motýľ",
-            en: "Butterfly"
+            sk: "Motýlí top",
+            en: "Butterfly top"
         },
 
-        image: "assets/images/topy/motylie34.jpg",
+        image: "assets/images/topy/motyliefront.jpg",
 
         production: {
             sk: "len prenájom alebo kúpa",
@@ -167,11 +167,11 @@ const items = {
     cyber: {
 
         title: {
-            sk: "Cyber",
-            en: "Cyber"
+            sk: "Cyber top",
+            en: "Cyber top"
         },
 
-        image: "assets/images/topy/cyberpunk.jpg",
+        image: "assets/images/topy/notcyberpunk.jpg",
 
         production: {
             sk: "len prenájom alebo kúpa",
@@ -207,11 +207,11 @@ const items = {
     mosaic: {
 
         title: {
-            sk: "Mozaika",
-            en: "Mosaic"
+            sk: "Mozaika top",
+            en: "Mosaic top"
         },
 
-        image: "assets/images/topy/minecraft34.jpg",
+        image: "assets/images/topy/minecraftfront.jpg",
 
         production: {
             sk: "len prenájom alebo kúpa",
@@ -239,7 +239,7 @@ const items = {
             en: "Send me an email or Instagram message"
         },
 
-        gallery: "#"
+        gallery: "https://www.instagram.com/p/DTbB-23ERWY/?img_index=1"
 
     },
 
@@ -250,7 +250,7 @@ large: {
         en: "Large"
     },
 
-    image: "assets/images/kridla/AngelicStraight.png",
+    image: "assets/images/kridla/idk.png",
 
     production: {
         sk: "len prenájom alebo kúpa",
@@ -276,7 +276,7 @@ large: {
         en: "Send me an email or Instagram message"
     },
 
-    gallery: "#"
+    gallery: "https://www.instagram.com/p/DXuVmKhCB_Q/"
 
 },
 
@@ -288,7 +288,7 @@ folded: {
         en: "Folded"
     },
 
-    image: "assets/images/kridla/Angelic34.png",
+    image: "assets/images/kridlanacrop/IMG_763181.JPG",
 
     production: {
         sk: "len prenájom alebo kúpa",
@@ -314,7 +314,7 @@ folded: {
         en: "Send me an email or Instagram message"
     },
 
-    gallery: "#"
+    gallery: "https://www.instagram.com/p/Dbv8ky6KOID/"
 
 },
 
@@ -364,7 +364,7 @@ small: {
         en: "Small"
     },
 
-    image: "assets/images/kridla/something.png",
+    image: "assets/images/kridla/",
 
     production: {
         sk: "len prenájom alebo kúpa",
@@ -390,7 +390,7 @@ small: {
         en: "Send me an email or Instagram message"
     },
 
-    gallery: "#"
+    gallery: "https://www.instagram.com/p/DYFtlXVoxvh/"
 
 },
 
@@ -402,7 +402,7 @@ small: {
         en: "Butterfly"
     },
 
-    image: "assets/images/kridla/MotylieTa.jpg",
+    image: "assets/images/kridla/MotylieDoma.jpg",
 
     production: {
         sk: "len prenájom alebo kúpa",
@@ -440,7 +440,7 @@ metal: {
         en: "Metal"
     },
 
-    image: "assets/images/kridla/MetalStatue.jpg",
+    image: "assets/images/kridla/Metal.jpg",
 
     production: {
         sk: "len prenájom alebo kúpa",
@@ -478,7 +478,7 @@ metal: {
         en: "Other 1"
     },
 
-    image: "assets/images/placeholder.jpg",
+    image: "assets/images/ostatne/done-5.jpg",
 
     production: {
         sk: "Informácie budú doplnené.",
@@ -666,6 +666,43 @@ metal: {
     title: {
         sk: "Ostatné 6",
         en: "Other 6"
+    },
+
+    image: "assets/images/placeholder.jpg",
+
+    production: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    availability: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    other: {
+        sk: "Informácie budú doplnené.",
+        en: "Information will be added later."
+    },
+
+    purchase: "—",
+    privateRental: "—",
+    commercialRental: "—",
+
+    collaboration: {
+        sk: "Napíšte mi mail alebo správu na Instagrame",
+        en: "Send me an email or Instagram message"
+    },
+
+    gallery: "#"
+
+},
+
+"other-7": {
+
+    title: {
+        sk: "Ostatné 7",
+        en: "Other 7"
     },
 
     image: "assets/images/placeholder.jpg",

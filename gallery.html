@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Tereza Haze</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ==========================================
+         HEADER
+    =========================================== -->
+
+    <header class="header">
+
+        <a
+            href="index.html"
+            class="logo"
+        >
+            Tereza Haze
+        </a>
+
+
+        <div class="header-right">
+
+            <nav class="navigation">
+
+                <a
+                    href="index.html"
+                    data-sk="DOMOV"
+                    data-en="HOME"
+                >
+                    DOMOV
+                </a>
+
+                <a
+                    href="o-mne.html"
+                    data-sk="O MNE"
+                    data-en="ABOUT ME"
+                >
+                    O MNE
+                </a>
+
+                <a
+                    href="info.html"
+                    data-sk="INFO"
+                    data-en="INFO"
+                >
+                    INFO
+                </a>
+
+                <a
+                    href="kontakt.html"
+                    data-sk="KONTAKT"
+                    data-en="CONTACT"
+                >
+                    KONTAKT
+                </a>
+
+            </nav>
+
+
+            <div class="language-selector">
+
+                <select
+                    id="language-select"
+                    aria-label="Choose language"
+                >
+
+                    <option value="sk">SK</option>
+                    <option value="en">EN</option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ==========================================
+         GALLERY PAGE
+    =========================================== -->
+
+    <main class="gallery-page">
+
+
+        <section class="gallery-container">
+
+
+            <!-- TITLE -->
+
+            <h1
+    id="gallery-title"
+    class="gallery-title"
+></h1>
+
+
+
+            <!-- CAROUSEL -->
+
+            <div class="carousel">
+
+
+                <!-- LEFT BUTTON -->
+
+                <button
+                    id="prev-button"
+                    class="carousel-button carousel-button-left"
+                    aria-label="Previous images"
+                >
+                    ‹
+                </button>
+
+
+
+                <!-- VIEWPORT -->
+
+                <div
+                    id="carousel-viewport"
+                    class="carousel-viewport"
+                >
+
+                    <div
+                        id="carousel-track"
+                        class="carousel-track"
+                    >
+
+                        <!-- JavaScript puts images here -->
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- RIGHT BUTTON -->
+
+                <button
+                    id="next-button"
+                    class="carousel-button carousel-button-right"
+                    aria-label="Next images"
+                >
+                    ›
+                </button>
+
+
+            </div>
+
+
+
+            <!-- DESCRIPTION -->
+
+            <div
+    id="gallery-description"
+    class="gallery-description"
+></div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <script src="js/script.js"></script>
+    <script src="js/gallery.js"></script>
+
+</body>
+
+</html>

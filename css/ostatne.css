@@ -1,0 +1,382 @@
+/* ==========================================
+   SHOWCASE PAGE
+========================================== */
+
+.showcase-page {
+
+    min-height: 100vh;
+
+    position: relative;
+
+    padding: 45px 6% 45px;
+
+    box-sizing: border-box;
+
+    background:
+        radial-gradient(
+            circle at 50% 45%,
+            #ffffff 0%,
+            #f5f8fc 45%,
+            #e8eef7 100%
+        );
+
+    overflow: hidden;
+
+}
+
+
+
+/* ==========================================
+   CORNER LOGOS
+========================================== */
+
+.corner-logo {
+
+    position: absolute;
+    top: 22px;
+    z-index: 10;
+    text-decoration: none;
+
+}
+
+
+.corner-logo-left {
+
+    left: 22px;
+
+}
+
+
+.corner-logo-right {
+
+    right: 22px;
+
+}
+
+
+
+/* ==========================================
+   LOGOS
+========================================== */
+
+.corner-logo img {
+
+    width: 70px;
+    height: 90px;
+
+    object-fit: contain;
+
+    display: block;
+
+}
+
+
+
+/* ==========================================
+   MAIN SHOWCASE
+========================================== */
+
+.showcase {
+
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+}
+
+
+
+/* ==========================================
+   TOP ROW
+========================================== */
+
+.showcase-top {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 34px;
+
+    align-items: start;
+
+    margin-bottom: 55px;
+
+}
+
+
+
+/* ==========================================
+   TOP CARDS
+========================================== */
+
+.showcase-card {
+
+    text-decoration: none;
+
+    color: #202020;
+
+    display: block;
+
+}
+
+
+.showcase-card-large img {
+
+    width: 100%;
+
+    aspect-ratio: 1 / 1;
+
+    object-fit: cover;
+
+    display: block;
+
+}
+
+
+
+/* ==========================================
+   TOP PILLS
+========================================== */
+
+.showcase-pill {
+
+    margin-top: 14px;
+
+    min-height: 41px;
+
+    padding: 0 20px;
+
+    border-radius: 25px;
+
+    background: #b9c3d2;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    box-sizing: border-box;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+
+}
+
+
+
+/* ==========================================
+   BOTTOM ROW
+========================================== */
+
+.showcase-bottom {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 32px;
+
+}
+
+
+
+/* ==========================================
+   BOTTOM CARDS
+========================================== */
+
+.showcase-card-small img {
+
+    width: 100%;
+
+    aspect-ratio: 1 / 1;
+
+    object-fit: cover;
+
+    display: block;
+
+}
+
+
+.showcase-card-small h2 {
+
+    margin: 18px 0 0;
+
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    color: #252525;
+
+}
+
+
+
+/* ==========================================
+   HOVER
+========================================== */
+
+.showcase-card img {
+
+    transition:
+        transform 0.25s ease,
+        opacity 0.25s ease;
+
+}
+
+
+.showcase-card:hover img {
+
+    transform: scale(1.02);
+
+    opacity: 0.92;
+
+}
+
+
+.showcase-card:hover .showcase-pill {
+
+    background: #adb8c9;
+
+}
+
+
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width: 900px) {
+
+    .showcase-page {
+
+        padding:
+            100px
+            5%
+            45px;
+
+    }
+
+
+    .showcase {
+
+        max-width: 700px;
+
+    }
+
+
+    .showcase-top {
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 30px;
+
+    }
+
+
+    .showcase-bottom {
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 30px;
+
+    }
+
+}
+
+
+
+/* ==========================================
+   PHONE
+========================================== */
+
+@media (max-width: 600px) {
+
+    .showcase-page {
+
+        padding:
+            85px
+            7%
+            40px;
+
+    }
+
+
+    .corner-logo-left {
+
+        left: 15px;
+
+    }
+
+
+    .corner-logo-right {
+
+        right: 15px;
+
+    }
+
+
+    .corner-logo img {
+
+    width: 48px;
+    height: 60px;
+
+}
+
+
+    .showcase-top {
+
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+
+        margin-bottom: 40px;
+
+    }
+
+
+    .showcase-bottom {
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 22px;
+
+    }
+
+
+    .showcase-pill {
+
+        font-size: 12px;
+
+        letter-spacing: 1px;
+
+        padding: 0 10px;
+
+    }
+
+
+    .showcase-card-small h2 {
+
+        font-size: 12px;
+
+        letter-spacing: 1.2px;
+
+        margin-top: 12px;
+
+    }
+
+}

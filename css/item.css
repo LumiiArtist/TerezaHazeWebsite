@@ -1,47 +1,83 @@
 /* ==========================================
-   ITEM PAGE
+   PAGE
 ========================================== */
 
 .item-page {
+    position: relative;
 
     min-height: calc(100vh - 140px);
 
-    padding: 60px 5% 80px;
+    background: #ffffff;
 
-    background:
-        radial-gradient(
-            circle at 50% 45%,
-            #ffffff 0%,
-            #f4f7fc 45%,
-            #eaf1fa 100%
-        );
-
+    overflow: hidden;
 }
 
 
+/* ==========================================
+   LEFT ARTWORK
+========================================== */
+
+.item-sidebar {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 270px;
+    height: 100vh;
+
+    pointer-events: none;
+
+    z-index: 1;
+}
+
+.sidebar-art {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 270px;
+    height: 100vh;
+
+    object-fit: cover;
+    object-position: left center;
+}
+
+.sidebar-logo {
+    position: absolute;
+
+    top: 40px;
+    left: 25px;
+
+    width: 90px;
+
+    z-index: 3;
+}
 
 /* ==========================================
    LAYOUT
 ========================================== */
 
 .item-layout {
+    position: relative;
 
-    max-width: 1400px;
+    z-index: 2;
 
-    margin: 0 auto;
+    max-width: 1150px;
+
+    margin-left: 280px;
+
+    padding: 70px 70px 80px;
 
     display: grid;
 
-    grid-template-columns:
-        minmax(500px, 1fr)
-        minmax(320px, 480px);
+    grid-template-columns: 1fr 380px;
 
-    gap: 80px;
+    gap: 100px;
 
     align-items: start;
-
 }
-
 
 
 /* ==========================================
@@ -49,76 +85,55 @@
 ========================================== */
 
 .item-title {
+    margin: 0 0 45px;
 
-    margin: 0 0 60px;
+    font-size: 52px;
 
-    font-family:
-        Georgia,
-        "Times New Roman",
-        serif;
+    text-align: left;
 
-    font-size: 56px;
-
-    line-height: 1.1;
-
+    font-weight: 700;
 }
-
 
 
 /* ==========================================
-   SECTIONS
+   CONTENT
 ========================================== */
 
 .item-section {
-
     margin-bottom: 60px;
-
 }
 
-
 .item-label {
-
     display: inline-block;
 
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 
-    padding: 8px 14px;
+    padding: 6px 12px;
 
-    border-radius: 12px;
+    border-radius: 8px;
 
-    background: #e7eaf5;
+    background: #e6e8f2;
 
     font-family: Arial, sans-serif;
 
-    font-size: 16px;
+    font-size: 15px;
 
     font-weight: 700;
-
 }
-
 
 .item-text {
-
     font-size: 18px;
 
-    line-height: 1.6;
-
+    line-height: 1.55;
 }
-
 
 .item-text p {
-
-    margin: 0 0 12px;
-
+    margin: 0 0 10px;
 }
-
 
 .item-text strong {
-
     font-style: italic;
-
 }
-
 
 
 /* ==========================================
@@ -126,33 +141,24 @@
 ========================================== */
 
 .item-media {
-
     text-align: center;
-
 }
 
-
 .item-media img {
-
     width: 100%;
 
     display: block;
-
 }
 
-
 .gallery-link {
-
     display: inline-block;
 
-    margin-top: 24px;
+    margin-top: 18px;
 
     color: inherit;
 
     font-size: 18px;
-
 }
-
 
 
 /* ==========================================
@@ -161,34 +167,33 @@
 
 @media (max-width: 1000px) {
 
+    .item-sidebar {
+        display: none;
+    }
+
     .item-layout {
+        margin-left: 0; 
+
+        padding: 50px 6% 70px;
 
         grid-template-columns: 1fr;
 
         gap: 50px;
-
-    }
-
-    .item-title {
-
-        font-size: 42px;
-
-        text-align: center;
-
-        margin-bottom: 40px;
-
     }
 
     .item-media {
+        order: -1;
 
         max-width: 550px;
 
         margin: 0 auto;
+    }
 
+    .item-title {
+        font-size: 38px;
     }
 
 }
-
 
 
 /* ==========================================
@@ -197,44 +202,67 @@
 
 @media (max-width: 600px) {
 
-    .item-page {
+    .item-layout {
+        margin-left: 0; 
 
         padding: 35px 7% 50px;
-
     }
 
     .item-title {
-
-        font-size: 34px;
-
+        font-size: 32px;
     }
 
     .item-text {
-
         font-size: 16px;
-
     }
 
     .gallery-link {
-
         font-size: 16px;
-
     }
 
-    .item-section {
-
-        margin-bottom: 40px;
-
+    .pricing-section {
+        margin-top: 40px;
+        margin-left: 0;
+        width: 100%;
     }
-
+}
+.item-media {
+    width: 100%;
+    max-width: 380px;
 }
 
-@media (max-width: 1000px) {
+.item-media img {
+    width: 100%;
+    display: block;
+}
 
-    .item-media {
+.item-label {
+    padding: 5px 10px;
 
-        order: -1;
+    border-radius: 8px;
 
+    background: #e7e8f3;
+
+    font-size: 14px;
+
+    font-weight: 700;
+}
+
+.sidebar-art {
+    width: 270px;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.pricing-section {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+@media (max-width: 600px) {
+    .pricing-section {
+        margin-left: 0;
+        margin-top: 40px;
+        width: 100%;
     }
-
 }

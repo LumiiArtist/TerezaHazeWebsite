@@ -148,6 +148,8 @@ body {
     grid-template-columns: repeat(4, 1fr);
 
     gap: 60px;
+
+    padding-bottom: 40px;
 }
 
 
@@ -1771,4 +1773,16 @@ SMALL PHONE
         font-size: 10px;
     }
 
+}
+
+html,
+body {
+    min-height: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+main {
+    min-height: 100vh;
 }
