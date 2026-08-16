@@ -131,10 +131,6 @@
     margin: 0 0 10px;
 }
 
-.item-text strong {
-    font-style: italic;
-}
-
 
 /* ==========================================
    IMAGE
@@ -237,17 +233,12 @@
 }
 
 .item-label {
-    padding: 5px 10px;
-
-    border-radius: 8px;
-
+    padding: 8px 15px;
+    border-radius: 9px;
     background: #e7e8f3;
-
-    font-size: 14px;
-
+    font-size: 18px;
     font-weight: 700;
 }
-
 .sidebar-art {
     width: 270px;
     height: 100vh;

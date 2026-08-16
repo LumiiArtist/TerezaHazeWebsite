@@ -64,11 +64,6 @@ const designs = [
         price: "???€"
     },
 
-    // {
-    //     image: "navrh09.jpg",
-    //     price: "???€"
-    // },
-
     {
         image: "IMG_7013.jpg",
         price: "???€"
@@ -89,30 +84,15 @@ const designs = [
         price: "???€"
     },
 
-    // {
-    //     image: "navrh14.jpg",
-    //     price: "???€"
-    // },
-
     {
         image: "IMG_6998 2.jpg",
         price: "???€"
     },
 
-    // {
-    //     image: "IMG_7011.JPG",
-    //     price: "???€"
-    // },
-
-    // {
-    //     image: "navrh17.jpg",
-    //     price: "???€"
-    // },
-
-    // {
-    //     image: "navrh18.jpg",
-    //     price: "???€"
-    // },
+    {
+        image: "IMG_7011.jpg",
+        price: "???€"
+    },
 
     {
         image: "IMG_7014 3.jpg",
@@ -120,9 +100,9 @@ const designs = [
     },
 
     {
-        image: "navrh20.jpg",
+        image: "IMG_7004.jpg",
         price: "???€"
-    }
+    },
 
 ];
 

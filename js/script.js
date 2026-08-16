@@ -11,6 +11,26 @@ const items = {
             en: "Wet"
         },
 
+    purchaseLabel: {
+        sk: "Cena nového topu:",
+        en: "Price of a new top:"
+    },
+
+    privateRentalLabel: {
+        sk: "Prenájom na súkromné účely:",
+        en: "Private rental:"
+    },
+
+    commercialRentalLabel: {
+        sk: "Prenájom na komerčné účely:",
+        en: "Commercial rental:"
+    },
+
+    collaborationLabel: {
+        sk: "Spolupráca:",
+        en: "Collaboration:"
+    },
+
         image: "assets/images/topy/2.jpg",
 
         production: {
@@ -18,9 +38,19 @@ const items = {
             en: "rental or purchase only"
         },
 
+            size: {
+                sk: "výroba na mieru",
+                en: "custom made"
+            },
+
+            colour: {
+                sk: "akákoľvek",
+                en: "any"
+            },
+
         availability: {
-            sk: "dostupný 1 kus na prenájom alebo kúpu",
-            en: "1 piece available for rental or purchase"
+            sk: "dostupné 2 kusy, v čierno-bielej kombinácii, s podprsenkou 80B (EU veľkosti)",
+            en: "2 pieces available, black and white combination, bra 80B (EU sizing)"
         },
 
         other: {
@@ -28,12 +58,16 @@ const items = {
             en: "the top is relatively fragile and best suited for photoshoots and posing"
         },
 
-        purchase: "80€",
+        purchase: {sk:"150€ shipping",
+                   en:"150€ + shipping"
+        },
+        privateRental: { sk: "30€ / deň + doprava",
+                         en: "30€ / day + shipping",
+        },
 
-        privateRental: "30€ / deň + doprava",
-
-        commercialRental: "50€ / deň + doprava",
-
+        commercialRental: { sk: "50€ / deň + doprava",
+                         en: "50€ / day + shipping",
+        },
         collaboration: {
             sk: "Napíšte mi mail alebo správu na Instagrame",
             en: "Send me an email or Instagram message"
@@ -58,9 +92,19 @@ const items = {
             en: "rental or purchase only"
         },
 
+            size: {
+                sk: "výroba na mieru",
+                en: "custom made"
+            },
+
+            colour: {
+                sk: "akákoľvek",
+                en: "any"
+            },
+
         availability: {
-            sk: "dostupný 1 kus na prenájom alebo kúpu",
-            en: "1 piece available for rental or purchase"
+            sk: "dostupné 2 kusy, v čierno-bielej kombinácii, s podprsenkou 80B (EU veľkosti)",
+            en: "2 pieces available, black and white combination, bra 80B (EU sizing)"
         },
 
         other: {
@@ -68,16 +112,40 @@ const items = {
             en: "the top is relatively fragile and best suited for photoshoots and posing"
         },
 
-        purchase: "80€",
+        purchase: {sk:"150€ shipping",
+                   en:"150€ + shipping"
+        },
+        privateRental: { sk: "30€ / deň + doprava",
+                         en: "30€ / day + shipping",
+        },
 
-        privateRental: "30€ / deň + doprava",
-
-        commercialRental: "50€ / deň + doprava",
-
+        commercialRental: { sk: "50€ / deň + doprava",
+                         en: "50€ / day + shipping",
+        },
         collaboration: {
             sk: "Napíšte mi mail alebo správu na Instagrame",
             en: "Send me an email or Instagram message"
         },
+
+        purchaseLabel: {
+        sk: "Cena nového topu:",
+        en: "Price of a new top:"
+    },
+
+    privateRentalLabel: {
+        sk: "Prenájom na súkromné účely:",
+        en: "Private rental:"
+    },
+
+    commercialRentalLabel: {
+        sk: "Prenájom na komerčné účely:",
+        en: "Commercial rental:"
+    },
+
+    collaborationLabel: {
+        sk: "Spolupráca:",
+        en: "Collaboration:"
+    },
 
         gallery: "https://www.instagram.com/p/DUi8b3JiBjK/?img_index=1"
 
@@ -98,9 +166,19 @@ const items = {
             en: "rental or purchase only"
         },
 
+            size: {
+                sk: "výroba na mieru",
+                en: "custom made"
+            },
+
+            colour: {
+                sk: "akákoľvek",
+                en: "any"
+            },
+
         availability: {
-            sk: "dostupný 1 kus na prenájom alebo kúpu",
-            en: "1 piece available for rental or purchase"
+            sk: "dostupné 2 kusy, v čierno-bielej kombinácii, s podprsenkou 80B (EU veľkosti)",
+            en: "2 pieces available, black and white combination, bra 80B (EU sizing)"
         },
 
         other: {
@@ -108,16 +186,40 @@ const items = {
             en: "the top is relatively fragile and best suited for photoshoots and posing"
         },
 
-        purchase: "80€",
+        purchase: {sk:"150€ shipping",
+                   en:"150€ + shipping"
+        },
+        privateRental: { sk: "30€ / deň + doprava",
+                         en: "30€ / day + shipping",
+        },
 
-        privateRental: "30€ / deň + doprava",
-
-        commercialRental: "50€ / deň + transport",
-
+        commercialRental: { sk: "50€ / deň + doprava",
+                         en: "50€ / day + shipping",
+        },
         collaboration: {
             sk: "Napíšte mi mail alebo správu na Instagrame",
             en: "Send me an email or Instagram message"
         },
+
+        purchaseLabel: {
+        sk: "Cena nového topu:",
+        en: "Price of a new top:"
+    },
+
+    privateRentalLabel: {
+        sk: "Prenájom na súkromné účely:",
+        en: "Private rental:"
+    },
+
+    commercialRentalLabel: {
+        sk: "Prenájom na komerčné účely:",
+        en: "Commercial rental:"
+    },
+
+    collaborationLabel: {
+        sk: "Spolupráca:",
+        en: "Collaboration:"
+    },
 
         gallery: "https://www.instagram.com/p/DMkLRYcs9zd/?img_index=1"
 
@@ -138,9 +240,19 @@ const items = {
             en: "rental or purchase only"
         },
 
+            size: {
+                sk: "výroba na mieru",
+                en: "custom made"
+            },
+
+            colour: {
+                sk: "akákoľvek",
+                en: "any"
+            },
+
         availability: {
-            sk: "dostupný 1 kus na prenájom alebo kúpu",
-            en: "1 piece available for rental or purchase"
+            sk: "dostupné 2 kusy, v čierno-bielej kombinácii, s podprsenkou 80B (EU veľkosti)",
+            en: "2 pieces available, black and white combination, bra 80B (EU sizing)"
         },
 
         other: {
@@ -148,16 +260,40 @@ const items = {
             en: "the top is relatively fragile and best suited for photoshoots and posing"
         },
 
-        purchase: "80€",
+        purchase: {sk:"150€ shipping",
+                   en:"150€ + shipping"
+        },
+        privateRental: { sk: "30€ / deň + doprava",
+                         en: "30€ / day + shipping",
+        },
 
-        privateRental: "30€ / deň + doprava",
-
-        commercialRental: "50€ / deň + doprava",
-
+        commercialRental: { sk: "50€ / deň + doprava",
+                         en: "50€ / day + shipping",
+        },
         collaboration: {
             sk: "Napíšte mi mail alebo správu na Instagrame",
             en: "Send me an email or Instagram message"
         },
+
+        purchaseLabel: {
+        sk: "Cena nového topu:",
+        en: "Price of a new top:"
+    },
+
+    privateRentalLabel: {
+        sk: "Prenájom na súkromné účely:",
+        en: "Private rental:"
+    },
+
+    commercialRentalLabel: {
+        sk: "Prenájom na komerčné účely:",
+        en: "Commercial rental:"
+    },
+
+    collaborationLabel: {
+        sk: "Spolupráca:",
+        en: "Collaboration:"
+    },
 
         gallery: "#"
 
@@ -178,9 +314,19 @@ const items = {
             en: "rental or purchase only"
         },
 
+            size: {
+                sk: "výroba na mieru",
+                en: "custom made"
+            },
+
+            colour: {
+                sk: "akákoľvek",
+                en: "any"
+            },
+
         availability: {
-            sk: "dostupný 1 kus na prenájom alebo kúpu",
-            en: "1 piece available for rental or purchase"
+            sk: "dostupné 2 kusy, v čierno-bielej kombinácii, s podprsenkou 80B (EU veľkosti)",
+            en: "2 pieces available, black and white combination, bra 80B (EU sizing)"
         },
 
         other: {
@@ -188,16 +334,40 @@ const items = {
             en: "the top is relatively fragile and best suited for photoshoots and posing"
         },
 
-        purchase: "80€",
+        purchase: {sk:"150€ shipping",
+                   en:"150€ + shipping"
+        },
+        privateRental: { sk: "30€ / deň + doprava",
+                         en: "30€ / day + shipping",
+        },
 
-        privateRental: "30€ / deň + doprava",
-
-        commercialRental: "50€ / deň + doprava",
-
+        commercialRental: { sk: "50€ / deň + doprava",
+                         en: "50€ / day + shipping",
+        },
         collaboration: {
             sk: "Napíšte mi mail alebo správu na Instagrame",
             en: "Send me an email or Instagram message"
         },
+
+        purchaseLabel: {
+        sk: "Cena nového topu:",
+        en: "Price of a new top:"
+    },
+
+    privateRentalLabel: {
+        sk: "Prenájom na súkromné účely:",
+        en: "Private rental:"
+    },
+
+    commercialRentalLabel: {
+        sk: "Prenájom na komerčné účely:",
+        en: "Commercial rental:"
+    },
+
+    collaborationLabel: {
+        sk: "Spolupráca:",
+        en: "Collaboration:"
+    },
 
         gallery: "#"
 
@@ -218,9 +388,19 @@ const items = {
             en: "rental or purchase only"
         },
 
+            size: {
+                sk: "výroba na mieru",
+                en: "custom made"
+            },
+
+            colour: {
+                sk: "akákoľvek",
+                en: "any"
+            },
+
         availability: {
-            sk: "dostupný 1 kus na prenájom alebo kúpu",
-            en: "1 piece available for rental or purchase"
+            sk: "dostupné 2 kusy, v čierno-bielej kombinácii, s podprsenkou 80B (EU veľkosti)",
+            en: "2 pieces available, black and white combination, bra 80B (EU sizing)"
         },
 
         other: {
@@ -228,16 +408,40 @@ const items = {
             en: "the top is relatively fragile and best suited for photoshoots and posing"
         },
 
-        purchase: "80€",
+        purchase: {sk:"150€ shipping",
+                   en:"150€ + shipping"
+        },
+        privateRental: { sk: "30€ / deň + doprava",
+                         en: "30€ / day + shipping",
+        },
 
-        privateRental: "30€ / deň + doprava",
-
-        commercialRental: "50€ / deň + transport",
-
+        commercialRental: { sk: "50€ / deň + doprava",
+                         en: "50€ / day + shipping",
+        },
         collaboration: {
             sk: "Napíšte mi mail alebo správu na Instagrame",
             en: "Send me an email or Instagram message"
         },
+
+        purchaseLabel: {
+        sk: "Cena nového topu:",
+        en: "Price of a new top:"
+    },
+
+    privateRentalLabel: {
+        sk: "Prenájom na súkromné účely:",
+        en: "Private rental:"
+    },
+
+    commercialRentalLabel: {
+        sk: "Prenájom na komerčné účely:",
+        en: "Commercial rental:"
+    },
+
+    collaborationLabel: {
+        sk: "Spolupráca:",
+        en: "Collaboration:"
+    },
 
         gallery: "https://www.instagram.com/p/DTbB-23ERWY/?img_index=1"
 
@@ -254,27 +458,69 @@ large: {
 
     production: {
         sk: "3 týždne od nadobudnutia materiálov",
-        en: "rental or purchase only"
+        en: "3 weeks since obtaining materials"
+    },
+
+        size: {
+        sk: "325cm x 200cm",
+        en: "325cm x 200cm"
+    },
+
+    weight: {
+        sk: "3,65kg",
+        en: "3.65kg"
+    },
+
+    colour: {
+        sk: "biela, čierna, modrá, žltá",
+        en: "white, black, blue, yellow"
     },
 
     availability: {
-        sk: "dostupný 1 kus na prenájom alebo kúpu",
-        en: "1 piece available for rental or purchase"
+        sk: "dostupný 1 kus na prenájom",
+        en: "1 piece available for rental"
     },
 
     other: {
-        sk: "Veľké krídla vhodné na fotenia, kostýmy, cosplay a ďalšie projekty.",
-        en: "Large wings suitable for photoshoots, costumes, cosplay and other projects."
+        sk: "ohybné, odolné voči vode",
+        en: "flexible, water resistant"
     },
 
-    purchase: "80€",
-    privateRental: "30€ / deň + doprava",
-    commercialRental: "50€ / deň + doprava",
+    purchase: {sk: "400€",
+               en: "400€"
+    },
+    privateRental: {sk: "60€ na deň plus doprava (napr. do BA je doprava 30€)",
+                    en: "60€ per day + shipping (for example to BA shipping is 30€)"
+    },
+    commercialRental: {sk: "130€ na deň plus doprava",
+                       en: "130€ per day + shipping"
+    },
 
     collaboration: {
         sk: "Napíšte mi mail alebo správu na Instagrame",
         en: "Send me an email or Instagram message"
     },
+
+        purchaseLabel: {
+        sk: "Nové krídla:",
+        en: "New Wings:"
+    },
+
+    privateRentalLabel: {
+        sk: "Prenájom na súkromné účely:",
+        en: "Private rental:"
+    },
+
+    commercialRentalLabel: {
+        sk: "Prenájom na komerčné účely:",
+        en: "Commercial rental:"
+    },
+
+    collaborationLabel: {
+        sk: "Spolupráca:",
+        en: "Collaboration:"
+    },
+
 
     gallery: "https://www.instagram.com/p/DXuVmKhCB_Q/"
 
@@ -290,28 +536,69 @@ folded: {
 
     image: "assets/images/kridlanacrop/IMG_763181.JPG",
 
-    production: {
-        sk: "len prenájom alebo kúpa",
-        en: "rental or purchase only"
+        production: {
+        sk: "3 týždne od nadobudnutia materiálov",
+        en: "3 weeks since obtaining materials"
+    },
+
+        size: {
+        sk: "140cm x 190cm",
+        en: "140cm x 190cm"
+    },
+
+    weight: {
+        sk: "2,35kg",
+        en: "2,35kg"
+    },
+
+    colour: {
+        sk: "biela, čierna, modrá, žltá",
+        en: "white, black, blue, yellow"
     },
 
     availability: {
-        sk: "dostupný 1 kus na prenájom alebo kúpu",
-        en: "1 piece available for rental or purchase"
+        sk: "dostupný 1 kus na prenájom",
+        en: "1 piece available for rental"
     },
 
     other: {
-        sk: "Krídla v sklopenej polohe.",
-        en: "Wings shown in their folded position."
+        sk: "mierne ohybné, odolné voči vode",
+        en: "kinda flexible, water resistant"
     },
 
-    purchase: "80€",
-    privateRental: "30€ / deň + doprava",
-    commercialRental: "50€ / deň + doprava",
+    purchase: {sk: "320€",
+               en: "320€"
+    },
+    privateRental: {sk: "60€ na deň plus doprava (napr. do BA je doprava 30€)",
+                    en: "60€ per day + shipping (for example to BA shipping is 30€)"
+    },
+    commercialRental: {sk: "130€ na deň plus doprava",
+                       en: "130€ per day + shipping"
+    },
 
     collaboration: {
         sk: "Napíšte mi mail alebo správu na Instagrame",
         en: "Send me an email or Instagram message"
+    },
+
+        purchaseLabel: {
+        sk: "Nové krídla:",
+        en: "New Wings:"
+    },
+
+    privateRentalLabel: {
+        sk: "Prenájom na súkromné účely:",
+        en: "Private rental:"
+    },
+
+    commercialRentalLabel: {
+        sk: "Prenájom na komerčné účely:",
+        en: "Commercial rental:"
+    },
+
+    collaborationLabel: {
+        sk: "Spolupráca:",
+        en: "Collaboration:"
     },
 
     gallery: "https://www.instagram.com/p/Dbv8ky6KOID/"
@@ -322,34 +609,76 @@ folded: {
 medium: {
 
     title: {
-        sk: "Stredné",
-        en: "Medium"
+        sk: "Krídla stredné",
+        en: "Wings Medium"
     },
 
     image: "assets/images/kridla/Screenshot 2026-08-12 201948.png",
 
-    production: {
-        sk: "len prenájom alebo kúpa",
-        en: "rental or purchase only"
+        production: {
+        sk: "3 týždne od nadobudnutia materiálov",
+        en: "3 weeks since obtaining materials"
+    },
+
+        size: {
+        sk: "budú cca mať 230cm",
+        en: "around 230cm"
+    },
+
+    weight: {
+        sk: "mystery",
+        en: "mystery"
+    },
+
+    colour: {
+        sk: "biela, čierna, modrá, žltá",
+        en: "white, black, blue, yellow"
     },
 
     availability: {
-        sk: "dostupný 1 kus na prenájom alebo kúpu",
-        en: "1 piece available for rental or purchase"
+        sk: "dostupný 1 kus na prenájom",
+        en: "1 piece available for rental"
     },
 
     other: {
-        sk: "Stredne veľké krídla vhodné na rôzne outfity, fotenia a kostýmy.",
-        en: "Medium-sized wings suitable for outfits, photoshoots and costumes."
+        sk: "ohybné, odolné voči vode",
+        en: "flexible, water resistant"
     },
 
-    purchase: "80€",
-    privateRental: "30€ / deň + doprava",
-    commercialRental: "50€ / deň + doprava",
+    purchase: {sk: "320€",
+               en: "320€"
+    },
+    privateRental: {sk: "60€ na deň plus doprava (napr. do BA je doprava 30€)",
+                    en: "60€ per day + shipping (for example to BA shipping is 30€)"
+    },
+    commercialRental: {sk: "130€ na deň plus doprava",
+                       en: "130€ per day + shipping"
+    },
 
     collaboration: {
         sk: "Napíšte mi mail alebo správu na Instagrame",
         en: "Send me an email or Instagram message"
+    },
+
+
+        purchaseLabel: {
+        sk: "Nové krídla:",
+        en: "New Wings:"
+    },
+
+    privateRentalLabel: {
+        sk: "Prenájom na súkromné účely:",
+        en: "Private rental:"
+    },
+
+    commercialRentalLabel: {
+        sk: "Prenájom na komerčné účely:",
+        en: "Commercial rental:"
+    },
+
+    collaborationLabel: {
+        sk: "Spolupráca:",
+        en: "Collaboration:"
     },
 
     gallery: "#"
@@ -364,30 +693,68 @@ small: {
         en: "Small"
     },
 
-    image: "assets/images/kridla/",
+    image: "assets/images/kridla/something.png",
 
-    production: {
-        sk: "len prenájom alebo kúpa",
-        en: "rental or purchase only"
+        production: {
+        sk: "cca 1 týždeň od nadobudnutia materiálov",
+        en: "around 1 week since obtaining materials"
+    },
+
+        size: {
+        sk: "140cm x 60cm",
+        en: "140cm x 60cm"
+    },
+
+    weight: {
+        sk: "0,75kg",
+        en: "0,75kg"
+    },
+
+    colour: {
+        sk: "biela, čierna, modrá, žltá",
+        en: "white, black, blue, yellow"
     },
 
     availability: {
-        sk: "dostupný 1 kus na prenájom alebo kúpu",
-        en: "1 piece available for rental or purchase"
+        sk: "dostupný 1 kus na prenájom",
+        en: "1 piece available for rental"
     },
 
     other: {
-        sk: "Menšie krídla vhodné najmä na outfity, fotenia a doplnky ku kostýmom.",
-        en: "Smaller wings suitable mainly for outfits, photoshoots and costume accessories."
+        sk: "pohyblivé, na baterky, motorček vydáva zvuk pri pohybe",
+        en: "movable, uses batteries, engine makes sounds while moving"
     },
 
-    purchase: "80€",
-    privateRental: "30€ / deň + doprava",
-    commercialRental: "50€ / deň + doprava",
-
+    purchase: "140€",
+    privateRental: {sk: "30€ na deň plus doprava",
+                    en: "30€ per day + shipping"
+    },
+    commercialRental: {sk: "50€ na deň plus doprava",
+                       en: "50€ per day + shipping"
+    },
     collaboration: {
         sk: "Napíšte mi mail alebo správu na Instagrame",
         en: "Send me an email or Instagram message"
+    },
+
+        purchaseLabel: {
+        sk: "Nové krídla:",
+        en: "New Wings:"
+    },
+
+    privateRentalLabel: {
+        sk: "Prenájom na súkromné účely:",
+        en: "Private rental:"
+    },
+
+    commercialRentalLabel: {
+        sk: "Prenájom na komerčné účely:",
+        en: "Commercial rental:"
+    },
+
+    collaborationLabel: {
+        sk: "Spolupráca:",
+        en: "Collaboration:"
     },
 
     gallery: "https://www.instagram.com/p/DYFtlXVoxvh/"
@@ -404,28 +771,66 @@ small: {
 
     image: "assets/images/kridla/MotylieDoma.jpg",
 
-    production: {
-        sk: "len prenájom alebo kúpa",
-        en: "rental or purchase only"
+        production: {
+        sk: "3 týždne od nadobudnutia materiálov",
+        en: "3 weeks since obtaining materials"
+    },
+
+        size: {
+        sk: "170cm x 170cm",
+        en: "170cm x 170cm"
+    },
+
+    weight: {
+        sk: "3,75kg",
+        en: "3,75kg"
+    },
+
+    colour: {
+        sk: "akákoľvek farba alebo variácia farieb",
+        en: "any colour or variation of colours"
     },
 
     availability: {
-        sk: "dostupný 1 kus na prenájom alebo kúpu",
-        en: "1 piece available for rental or purchase"
+        sk: "dostupný 1 kus na prenájom",
+        en: "1 piece available for rental"
     },
 
     other: {
-        sk: "Motýlie krídla vhodné na fotenia, kostýmy a cosplay.",
-        en: "Butterfly wings suitable for photoshoots, costumes and cosplay."
+        sk: "nepohyblivé, nepolohovateľné",
+        en: "immovable, non-adjustable"
     },
 
-    purchase: "80€",
-    privateRental: "30€ / deň + doprava",
-    commercialRental: "50€ / deň + doprava",
-
+    purchase: "380€",
+    privateRental: {sk: "50€ na deň plus doprava",
+                    en: "50€ per day + shipping"
+    },
+    commercialRental: {sk: "100€ na deň plus doprava",
+                       en: "100€ per day + shipping"
+    },
     collaboration: {
         sk: "Napíšte mi mail alebo správu na Instagrame",
         en: "Send me an email or Instagram message"
+    },
+
+        purchaseLabel: {
+        sk: "Nové krídla:",
+        en: "New Wings:"
+    },
+
+    privateRentalLabel: {
+        sk: "Prenájom na súkromné účely:",
+        en: "Private rental:"
+    },
+
+    commercialRentalLabel: {
+        sk: "Prenájom na komerčné účely:",
+        en: "Commercial rental:"
+    },
+
+    collaborationLabel: {
+        sk: "Spolupráca:",
+        en: "Collaboration:"
     },
 
     gallery: "#"
@@ -442,28 +847,68 @@ metal: {
 
     image: "assets/images/kridla/Metal.jpg",
 
-    production: {
-        sk: "len prenájom alebo kúpa",
-        en: "rental or purchase only"
+        production: {
+        sk: "1-4 mesiace od nadobudnutia materiálov",
+        en: "1-4 months since obtaining materials"
+    },
+
+        size: {
+        sk: "mystery",
+        en: "mystery"
+    },
+
+    weight: {
+        sk: "8,35kg",
+        en: "8,35kg"
+    },
+
+    colour: {
+        sk: "strieborné, medené, zlaté",
+        en: "silver, copper, gold"
     },
 
     availability: {
-        sk: "dostupný 1 kus na prenájom alebo kúpu",
-        en: "1 piece available for rental or purchase"
+        sk: "dostupný 1 kus na prenájom",
+        en: "1 piece available for rental"
     },
 
     other: {
-        sk: "Kovové krídla s výrazným sochárskym vzhľadom.",
-        en: "Metal wings with a distinctive sculptural appearance."
+        sk: "rigidné, veľmi ťažké, viem vyrobiť aj v iných veľkostiach",
+        en: "rigid, very heavy, i can make different sizes as well"
     },
 
-    purchase: "80€",
-    privateRental: "30€ / deň + doprava",
-    commercialRental: "50€ / deň + doprava",
-
+    purchase: {sk: "cca 1700€-4000€ v závislosti od veľkosti a materiálu",
+               en: "around 1700€-4000€ depending on size and materials"},
+               
+    privateRental: {sk: "60€ na deň plus doprava",
+                    en: "60€ per day + shipping"
+    },
+    commercialRental: {sk: "130€ na deň plus doprava",
+                       en: "130€ per day + shipping"
+    },
     collaboration: {
         sk: "Napíšte mi mail alebo správu na Instagrame",
         en: "Send me an email or Instagram message"
+    },
+
+        purchaseLabel: {
+        sk: "Nové krídla:",
+        en: "New Wings:"
+    },
+
+    privateRentalLabel: {
+        sk: "Prenájom na súkromné účely:",
+        en: "Private rental:"
+    },
+
+    commercialRentalLabel: {
+        sk: "Prenájom na komerčné účely:",
+        en: "Commercial rental:"
+    },
+
+    collaborationLabel: {
+        sk: "Spolupráca:",
+        en: "Collaboration:"
     },
 
     gallery: "#"
@@ -757,6 +1202,61 @@ const selectedItem = items[itemId];
 
 function loadItem() {
 
+    const sizeRow = document.getElementById("item-size-row");
+const weightRow = document.getElementById("item-weight-row");
+const colourRow = document.getElementById("item-colour-row");
+
+
+if (selectedItem.size) {
+
+    sizeRow.style.display = "block";
+
+    document.getElementById("item-size").dataset.sk =
+        selectedItem.size.sk;
+
+    document.getElementById("item-size").dataset.en =
+        selectedItem.size.en;
+
+} else {
+
+    sizeRow.style.display = "none";
+
+}
+
+
+if (selectedItem.weight) {
+
+    weightRow.style.display = "block";
+
+    document.getElementById("item-weight").dataset.sk =
+        selectedItem.weight.sk;
+
+    document.getElementById("item-weight").dataset.en =
+        selectedItem.weight.en;
+
+} else {
+
+    weightRow.style.display = "none";
+
+}
+
+
+if (selectedItem.colour) {
+
+    colourRow.style.display = "block";
+
+    document.getElementById("item-colour").dataset.sk =
+        selectedItem.colour.sk;
+
+    document.getElementById("item-colour").dataset.en =
+        selectedItem.colour.en;
+
+} else {
+
+    colourRow.style.display = "none";
+
+}
+
     // If this is not the item page,
     // simply stop here.
 
@@ -822,18 +1322,168 @@ function loadItem() {
     document.getElementById("item-collaboration").dataset.en =
         selectedItem.collaboration.en;
 
+// ========================================
+// PRICING
+// ========================================
 
-    // Prices
+// Purchase
+const purchaseRow = document.getElementById("item-purchase-row");
+const purchaseLabel = document.getElementById("item-purchase-label");
+const purchaseValue = document.getElementById("item-purchase");
 
-    document.getElementById("item-purchase").textContent =
-        selectedItem.purchase;
+if (selectedItem.purchaseLabel && selectedItem.purchase) {
 
-    document.getElementById("item-private-rental").textContent =
-        selectedItem.privateRental;
+    purchaseRow.style.display = "block";
 
-    document.getElementById("item-commercial-rental").textContent =
-        selectedItem.commercialRental;
+    purchaseLabel.dataset.sk =
+        selectedItem.purchaseLabel.sk;
 
+    purchaseLabel.dataset.en =
+        selectedItem.purchaseLabel.en;
+
+    if (typeof selectedItem.purchase === "object") {
+
+        purchaseValue.dataset.sk =
+            selectedItem.purchase.sk;
+
+        purchaseValue.dataset.en =
+            selectedItem.purchase.en;
+
+    } else {
+
+        purchaseValue.textContent =
+            selectedItem.purchase;
+
+    }
+
+} else {
+
+    purchaseRow.style.display = "none";
+
+}
+
+
+// Private rental
+const privateRentalRow =
+    document.getElementById("item-private-rental-row");
+
+const privateRentalLabel =
+    document.getElementById("item-private-rental-label");
+
+const privateRentalValue =
+    document.getElementById("item-private-rental");
+
+if (selectedItem.privateRentalLabel && selectedItem.privateRental) {
+
+    privateRentalRow.style.display = "block";
+
+    privateRentalLabel.dataset.sk =
+        selectedItem.privateRentalLabel.sk;
+
+    privateRentalLabel.dataset.en =
+        selectedItem.privateRentalLabel.en;
+
+    if (typeof selectedItem.privateRental === "object") {
+
+        privateRentalValue.dataset.sk =
+            selectedItem.privateRental.sk;
+
+        privateRentalValue.dataset.en =
+            selectedItem.privateRental.en;
+
+    } else {
+
+        privateRentalValue.textContent =
+            selectedItem.privateRental;
+
+    }
+
+} else {
+
+    privateRentalRow.style.display = "none";
+
+}
+
+
+// Commercial rental
+const commercialRentalRow =
+    document.getElementById("item-commercial-rental-row");
+
+const commercialRentalLabel =
+    document.getElementById("item-commercial-rental-label");
+
+const commercialRentalValue =
+    document.getElementById("item-commercial-rental");
+
+if (
+    selectedItem.commercialRentalLabel &&
+    selectedItem.commercialRental
+) {
+
+    commercialRentalRow.style.display = "block";
+
+    commercialRentalLabel.dataset.sk =
+        selectedItem.commercialRentalLabel.sk;
+
+    commercialRentalLabel.dataset.en =
+        selectedItem.commercialRentalLabel.en;
+
+    if (typeof selectedItem.commercialRental === "object") {
+
+        commercialRentalValue.dataset.sk =
+            selectedItem.commercialRental.sk;
+
+        commercialRentalValue.dataset.en =
+            selectedItem.commercialRental.en;
+
+    } else {
+
+        commercialRentalValue.textContent =
+            selectedItem.commercialRental;
+
+    }
+
+} else {
+
+    commercialRentalRow.style.display = "none";
+
+}
+
+
+// Collaboration
+const collaborationRow =
+    document.getElementById("item-collaboration-row");
+
+const collaborationLabel =
+    document.getElementById("item-collaboration-label");
+
+const collaborationValue =
+    document.getElementById("item-collaboration");
+
+if (
+    selectedItem.collaborationLabel &&
+    selectedItem.collaboration
+) {
+
+    collaborationRow.style.display = "block";
+
+    collaborationLabel.dataset.sk =
+        selectedItem.collaborationLabel.sk;
+
+    collaborationLabel.dataset.en =
+        selectedItem.collaborationLabel.en;
+
+    collaborationValue.dataset.sk =
+        selectedItem.collaboration.sk;
+
+    collaborationValue.dataset.en =
+        selectedItem.collaboration.en;
+
+} else {
+
+    collaborationRow.style.display = "none";
+
+}
 
     // Image
 
