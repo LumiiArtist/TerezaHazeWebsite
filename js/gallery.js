@@ -99,6 +99,9 @@ const galleryData = {
             "assets/images/oblecenie a outfity/IMG_5479.jpg",
             "assets/images/oblecenie a outfity/IMG_9158.jpg",
             "assets/images/oblecenie a outfity/IMG_2242.jpg",
+
+            "assets/images/ct/IMG_5243.jpeg",
+            "assets/images/ct/IMG_7611.jpeg",
         ]
 
     }
