@@ -34,8 +34,8 @@ const items = {
         image: "assets/images/topy/2.jpg",
 
         production: {
-            sk: "len prenájom alebo kúpa",
-            en: "rental or purchase only"
+            sk: "10 dní od nadobudnutia materiálov",
+            en: "10 days since obtaining materials"
         },
 
             size: {
@@ -54,8 +54,8 @@ const items = {
         },
 
         other: {
-            sk: "top je pomerne krehký, vhodný skôr len na fotenia a pózovanie",
-            en: "the top is relatively fragile and best suited for photoshoots and posing"
+            sk: "vyrobené z profesionálneho silikónu bezpečného pre pokožku, top je mäkký, ohybný",
+            en: "Made of professional, skin-safe silicone; the top is soft and flexible."
         },
 
         purchase: {sk:"150€ shipping",
@@ -88,8 +88,8 @@ const items = {
         image: "assets/images/topy/redblack.jpg",
 
         production: {
-            sk: "len prenájom alebo kúpa",
-            en: "rental or purchase only"
+            sk: "14 dní od nadobudnutia materiálov",
+            en: "14 days since obtaining materials"
         },
 
             size: {
@@ -98,22 +98,22 @@ const items = {
             },
 
             colour: {
-                sk: "akákoľvek",
-                en: "any"
+                sk: "červená, alebo custom",
+                en: "red, or custom"
             },
 
         availability: {
-            sk: "dostupné 2 kusy, v čierno-bielej kombinácii, s podprsenkou 80B (EU veľkosti)",
-            en: "2 pieces available, black and white combination, bra 80B (EU sizing)"
+            sk: "dostupný 1 kus v červenej farbe, vhodný pre poprsie od A po menšie C",
+            en: "1 pieces available in red colour, suitable for bust from A to small C"
         },
 
         other: {
-            sk: "top je pomerne krehký, vhodný skôr len na fotenia a pózovanie",
-            en: "the top is relatively fragile and best suited for photoshoots and posing"
+            sk: "vyrobené z tvrdej živice, top je minimálne ohybný (len na uviazanie stuhy vzadu)",
+            en: "Made of hard resin; the top is minimally flexible (only enough to tie the ribbon at the back)."
         },
 
-        purchase: {sk:"150€ shipping",
-                   en:"150€ + shipping"
+        purchase: {sk:"160€ + doprava",
+                   en:"160€ + shipping"
         },
         privateRental: { sk: "30€ / deň + doprava",
                          en: "30€ / day + shipping",
@@ -162,8 +162,8 @@ const items = {
         image: "assets/images/topy/purplefront.JPG",
 
         production: {
-            sk: "len prenájom alebo kúpa",
-            en: "rental or purchase only"
+            sk: "14 dní od nadobudnutia materiálov",
+            en: "14 days since obtaining materials"
         },
 
             size: {
@@ -172,22 +172,22 @@ const items = {
             },
 
             colour: {
-                sk: "akákoľvek",
-                en: "any"
+                sk: "viac ako 15 farebných možností vrátane zlatej, striebirnej a medenej",
+                en: "more than 15 color options, including gold, silver, and copper"
             },
 
         availability: {
-            sk: "dostupné 2 kusy, v čierno-bielej kombinácii, s podprsenkou 80B (EU veľkosti)",
-            en: "2 pieces available, black and white combination, bra 80B (EU sizing)"
+            sk: "dostupný 1 kus v metalickej fialovej farbe, vhodný pre poprsie od A po menšie C",
+            en: "1 unit available in metallic purple, suitable for bust sizes ranging from A to small C."
         },
 
         other: {
-            sk: "top je pomerne krehký, vhodný skôr len na fotenia a pózovanie",
-            en: "the top is relatively fragile and best suited for photoshoots and posing"
+            sk: "top je tvrdý, pevný, neohybný",
+            en: "The top is hard, rigid, and inflexible."
         },
 
-        purchase: {sk:"150€ shipping",
-                   en:"150€ + shipping"
+        purchase: {sk:"160€ shipping",
+                   en:"160€ + shipping"
         },
         privateRental: { sk: "30€ / deň + doprava",
                          en: "30€ / day + shipping",
@@ -236,8 +236,8 @@ const items = {
         image: "assets/images/topy/motyliefront.jpg",
 
         production: {
-            sk: "len prenájom alebo kúpa",
-            en: "rental or purchase only"
+            sk: "14 dní od nadobudnutia materiálov",
+            en: "14 days since obtaining materials"
         },
 
             size: {
@@ -251,17 +251,17 @@ const items = {
             },
 
         availability: {
-            sk: "dostupné 2 kusy, v čierno-bielej kombinácii, s podprsenkou 80B (EU veľkosti)",
-            en: "2 pieces available, black and white combination, bra 80B (EU sizing)"
+            sk: "dostupný 1 kus v modro-fialovej farbe, vhodný pre poprsie od A po menšie C",
+            en: "1 unit available in blue-purple colour, suitable for bust sizes ranging from A to small C."
         },
 
         other: {
-            sk: "top je pomerne krehký, vhodný skôr len na fotenia a pózovanie",
-            en: "the top is relatively fragile and best suited for photoshoots and posing"
+            sk: "top je tvrdý, pevný, neohybný",
+            en: "The top is hard, rigid, and inflexible."
         },
 
-        purchase: {sk:"150€ shipping",
-                   en:"150€ + shipping"
+        purchase: {sk:"140€ shipping",
+                   en:"140€ + shipping"
         },
         privateRental: { sk: "30€ / deň + doprava",
                          en: "30€ / day + shipping",
@@ -295,7 +295,7 @@ const items = {
         en: "Collaboration:"
     },
 
-        gallery: "#"
+        gallery: "https://www.instagram.com/p/DR7XuMUEb08/?img_index=1"
 
     },
 
@@ -310,8 +310,8 @@ const items = {
         image: "assets/images/topy/notcyberpunk.jpg",
 
         production: {
-            sk: "len prenájom alebo kúpa",
-            en: "rental or purchase only"
+            sk: "14 dní od nadobudnutia materiálov",
+            en: "14 days since obtaining materials"
         },
 
             size: {
@@ -325,17 +325,17 @@ const items = {
             },
 
         availability: {
-            sk: "dostupné 2 kusy, v čierno-bielej kombinácii, s podprsenkou 80B (EU veľkosti)",
-            en: "2 pieces available, black and white combination, bra 80B (EU sizing)"
+            sk: "dostupný 1 kus v čierno-ružovej farbe, vhodný pre poprsie od A po menšie C",
+            en: "1 unit available in black-pink colour, suitable for bust sizes ranging from A to small C."
         },
 
         other: {
-            sk: "top je pomerne krehký, vhodný skôr len na fotenia a pózovanie",
-            en: "the top is relatively fragile and best suited for photoshoots and posing"
+            sk: "korzet + zbrane, zbrane sú mäkké a svietia pod UV svetlom",
+            en: "corset + weapons; the weapons are soft and glow under UV light"
         },
 
-        purchase: {sk:"150€ shipping",
-                   en:"150€ + shipping"
+        purchase: {sk:"200€ shipping",
+                   en:"200€ + shipping"
         },
         privateRental: { sk: "30€ / deň + doprava",
                          en: "30€ / day + shipping",
@@ -369,7 +369,7 @@ const items = {
         en: "Collaboration:"
     },
 
-        gallery: "#"
+        gallery: "https://www.instagram.com/p/DSAkY0eESZm/?img_index=1"
 
     },
 
@@ -384,8 +384,8 @@ const items = {
         image: "assets/images/topy/minecraftfront.jpg",
 
         production: {
-            sk: "len prenájom alebo kúpa",
-            en: "rental or purchase only"
+            sk: "14 dní od nadobudnutia materiálov",
+            en: "14 days since obtaining materials"
         },
 
             size: {
@@ -394,18 +394,18 @@ const items = {
             },
 
             colour: {
-                sk: "akákoľvek",
-                en: "any"
+                sk: "zelená",
+                en: "green"
             },
 
         availability: {
-            sk: "dostupné 2 kusy, v čierno-bielej kombinácii, s podprsenkou 80B (EU veľkosti)",
-            en: "2 pieces available, black and white combination, bra 80B (EU sizing)"
+            sk: "dostupný 1 kus v zelenej farbe, vhodný pre poprsie od A po menšie C",
+            en: "1 unit available in green colour, suitable for bust sizes ranging from A to small C."
         },
 
         other: {
-            sk: "top je pomerne krehký, vhodný skôr len na fotenia a pózovanie",
-            en: "the top is relatively fragile and best suited for photoshoots and posing"
+            sk: "top je veľmi krehký, vhodný skôr len na fotenia a pózovanie, nevhodné pre pohyb",
+            en: "The top is very delicate; it is suitable mainly for photoshoots and posing, and not for movement."
         },
 
         purchase: {sk:"150€ shipping",
@@ -454,7 +454,7 @@ large: {
         en: "Large"
     },
 
-    image: "assets/images/kridla/idk.png",
+    image: "assets/images/side.jpeg",
 
     production: {
         sk: "3 týždne od nadobudnutia materiálov",
@@ -534,7 +534,7 @@ folded: {
         en: "Folded"
     },
 
-    image: "assets/images/kridlanacrop/IMG_763181.JPG",
+    image: "assets/images/folded.jpeg",
 
         production: {
         sk: "3 týždne od nadobudnutia materiálov",
@@ -542,8 +542,8 @@ folded: {
     },
 
         size: {
-        sk: "140cm x 190cm",
-        en: "140cm x 190cm"
+        sk: "150cm x 190cm",
+        en: "150cm x 190cm"
     },
 
     weight: {
@@ -693,7 +693,7 @@ small: {
         en: "Small"
     },
 
-    image: "assets/images/kridla/something.png",
+    image: "assets/images/small.jpeg",
 
         production: {
         sk: "cca 1 týždeň od nadobudnutia materiálov",
@@ -833,7 +833,7 @@ small: {
         en: "Collaboration:"
     },
 
-    gallery: "#"
+    gallery: "https://www.instagram.com/p/C_ntODdITTY/?img_index=1"
 
 },
 
@@ -853,8 +853,8 @@ metal: {
     },
 
         size: {
-        sk: "mystery",
-        en: "mystery"
+        sk: "177cm x 100cm",
+        en: "177cm x 100cm"
     },
 
     weight: {
@@ -911,7 +911,7 @@ metal: {
         en: "Collaboration:"
     },
 
-    gallery: "#"
+    gallery: "https://www.instagram.com/p/DCEo5qAIaU7/?img_index=1"
 
 },
 
@@ -1040,27 +1040,55 @@ metal: {
     image: "assets/images/ostatne/IMG_07-04-2025-20-42-43.jpg",
 
     production: {
-        sk: "Informácie budú doplnené.",
-        en: "Information will be added later."
+        sk: "len prenájom alebo kúpa",
+        en: "rental or purchase only"
     },
 
     availability: {
-        sk: "Informácie budú doplnené.",
-        en: "Information will be added later."
+        sk: "dostupný 1 kus na prenájom alebo kúpu",
+        en: "1 unit available for rent or purchase"
     },
 
     other: {
-        sk: "Informácie budú doplnené.",
-        en: "Information will be added later."
+        sk: "top je pomerne krehký, vhodný skôr len na fotenia a pózovanie, nevhodné pre pohyb",
+        en: "The top is quite delicate—suitable mainly for photoshoots and posing, but not for movement."
     },
 
-    purchase: "—",
-    privateRental: "—",
-    commercialRental: "—",
+    purchase: {sk:"80€",
+               en:"80€"
+    },
+    privateRental: {
+        sk:"30€ na deň plus doprava",
+        en:"30€ per day + shipping"
+    },
+    commercialRental: {
+        sk: "50€ na deň plus doprava",
+        en: "50€ per day + shipping"
+    },
 
     collaboration: {
         sk: "Napíšte mi mail alebo správu na Instagrame",
         en: "Send me an email or Instagram message"
+    },
+
+            purchaseLabel: {
+        sk: "Cena už vyrobeného kusu:",
+        en: "Price of a already made piece:"
+    },
+
+    privateRentalLabel: {
+        sk: "Prenájom na súkromné účely:",
+        en: "Private rental:"
+    },
+
+    commercialRentalLabel: {
+        sk: "Prenájom na komerčné účely:",
+        en: "Commercial rental:"
+    },
+
+    collaborationLabel: {
+        sk: "Spolupráca:",
+        en: "Collaboration:"
     },
 
     gallery: "https://www.instagram.com/p/DIMt07GMWGC/?img_index=1"
@@ -1078,27 +1106,55 @@ metal: {
     image: "assets/images/ostatne/ELG-20220812-0461-404 2.jpg",
 
     production: {
-        sk: "Informácie budú doplnené.",
-        en: "Information will be added later."
+        sk: "len prenájom (keby je to do filmu alebo nejakého zujímavehého projektu, tak by som mooožno spravila aj novú.. bolo to náročné)",
+        en: "Rental only (if it were for a film or some interesting project, then I miiight even make a new one... it was a lot of work)"
     },
 
     availability: {
-        sk: "Informácie budú doplnené.",
-        en: "Information will be added later."
+        sk: "dostupný 1 kus na prenájom Viac fotiek v sekcii ostatné - cosplaye a kostýmy alebo na mojom Instagrame",
+        en: "1 unit available for rent. More photos in the Other – Cosplays and Costumes section or on my Instagram."
     },
 
     other: {
-        sk: "Informácie budú doplnené.",
-        en: "Information will be added later."
+        sk: "je pevná, vhodná pre pohyb",
+        en: "It is firm and suitable for movement."
     },
 
-    purchase: "—",
-    privateRental: "—",
-    commercialRental: "—",
+    purchase: {sk:"300€",
+               en:"300€"
+    },
+    privateRental: {
+        sk:"35€ na deň plus doprava",
+        en:"35€ per day + shipping"
+    },
+    commercialRental: {
+        sk: "55€ na deň plus doprava",
+        en: "55€ per day + shipping"
+    },
 
     collaboration: {
         sk: "Napíšte mi mail alebo správu na Instagrame",
         en: "Send me an email or Instagram message"
+    },
+
+    purchaseLabel: {
+        sk: "Cena nového kusu:",
+        en: "Price of a new piece:"
+    },
+
+    privateRentalLabel: {
+        sk: "Prenájom na súkromné účely:",
+        en: "Private rental:"
+    },
+
+    commercialRentalLabel: {
+        sk: "Prenájom na komerčné účely:",
+        en: "Commercial rental:"
+    },
+
+    collaborationLabel: {
+        sk: "Spolupráca:",
+        en: "Collaboration:"
     },
 
     gallery: "https://www.instagram.com/p/CECjLwTDt05/?img_index=1"
@@ -1116,27 +1172,55 @@ metal: {
     image: "assets/images/ostatne/IMG_7237.png",
 
     production: {
-        sk: "Informácie budú doplnené.",
-        en: "Information will be added later."
+        sk: "7 dní od nadobudnutia materiálov",
+        en: "7 days since obtaining materials"
     },
 
     availability: {
-        sk: "Informácie budú doplnené.",
-        en: "Information will be added later."
+        sk: "dostupný 1 kus na prenájom alebo kúpu",
+        en: "1 unit available for rent or to buy"
     },
 
     other: {
-        sk: "Informácie budú doplnené.",
-        en: "Information will be added later."
+        sk: "ten čo je dostupný má isté nedokonalosti (zohľadnené v cene)",
+        en: "The one that is available has certain imperfections (reflected in the price)"
     },
 
-    purchase: "—",
-    privateRental: "—",
-    commercialRental: "—",
+    purchase: {sk:"30€ (už vyrobený) 50€ (nový)",
+               en:"30€ (already made) 50€ (new)"
+    },
+    privateRental: {
+        sk:"20€ na deň plus doprava",
+        en:"20€ per day + shipping"
+    },
+    commercialRental: {
+        sk: "40€ na deň plus doprava",
+        en: "40€ per day + shipping"
+    },
 
     collaboration: {
         sk: "Napíšte mi mail alebo správu na Instagrame",
         en: "Send me an email or Instagram message"
+    },
+
+    purchaseLabel: {
+        sk: "Cena:",
+        en: "Price:"
+    },
+
+    privateRentalLabel: {
+        sk: "Prenájom na súkromné účely:",
+        en: "Private rental:"
+    },
+
+    commercialRentalLabel: {
+        sk: "Prenájom na komerčné účely:",
+        en: "Commercial rental:"
+    },
+
+    collaborationLabel: {
+        sk: "Spolupráca:",
+        en: "Collaboration:"
     },
 
     gallery: "https://www.instagram.com/p/DE0f7j1M2fd/?img_index=1"
@@ -1146,34 +1230,72 @@ metal: {
 "other-7": {
 
     title: {
-        sk: "Ostatné 7",
-        en: "Other 7"
+        sk: "Strieborné čižmy",
+        en: "Silver boots"
     },
 
     image: "assets/images/ostatne/IMG_7653.jpg",
 
     production: {
-        sk: "Informácie budú doplnené.",
-        en: "Information will be added later."
+        sk: "14 dní od nadobudnutia materiálov",
+        en: "14 days since obtaining materials"
     },
 
     availability: {
-        sk: "Informácie budú doplnené.",
-        en: "Information will be added later."
+        sk: "dostupný 1 pár, veľkosť 39, strieborné",
+        en: "1 pair available, size 39, silver"
+    },
+
+    size: {
+        sk: "výroba na mieru",
+        en: "custom made"
+    },
+
+    colour: {
+        sk: "takmer akákoľvek",
+        en: "almost any colour"
     },
 
     other: {
-        sk: "Informácie budú doplnené.",
-        en: "Information will be added later."
+        sk: "ten čo je dostupný má isté nedokonalosti (zohľadnené v cene)",
+        en: "The one that is available has certain imperfections (reflected in the price)"
     },
 
-    purchase: "—",
-    privateRental: "—",
-    commercialRental: "—",
+    purchase: {sk:"cca 100€ plus doprava (cena záleží od ceny čižiem)",
+               en:"around €100 plus shipping (price depends on the cost of the boots)"
+    },
+    privateRental: {
+        sk:"30€ na deň plus doprava",
+        en:"30€ per day + shipping"
+    },
+    commercialRental: {
+        sk: "50€ na deň plus doprava",
+        en: "50€ per day + shipping"
+    },
 
     collaboration: {
         sk: "Napíšte mi mail alebo správu na Instagrame",
         en: "Send me an email or Instagram message"
+    },
+
+    purchaseLabel: {
+        sk: "Cena:",
+        en: "Price:"
+    },
+
+    privateRentalLabel: {
+        sk: "Prenájom na súkromné účely:",
+        en: "Private rental:"
+    },
+
+    commercialRentalLabel: {
+        sk: "Prenájom na komerčné účely:",
+        en: "Commercial rental:"
+    },
+
+    collaborationLabel: {
+        sk: "Spolupráca:",
+        en: "Collaboration:"
     },
 
     gallery: "https://www.instagram.com/p/DE0f7j1M2fd/?img_index=1"
@@ -1516,24 +1638,67 @@ if (
    LANGUAGE SWITCHER
 ======================================== */
 
-const languageSelect =
-    document.getElementById("language-select");
+const languageSelect = document.getElementById("language-select");
 
 
 // Get saved language
+let currentLanguage = localStorage.getItem("language") || "sk";
 
-let currentLanguage =
-    localStorage.getItem("language") || "sk";
+
+// Apply language to all translated elements
+function setLanguage(language) {
+
+    document.querySelectorAll("[data-sk][data-en]").forEach(element => {
+
+        const translation = element.dataset[language];
+
+        if (translation !== undefined) {
+            element.textContent = translation;
+        }
+
+    });
+
+
+    // Update HTML language
+    document.documentElement.lang =
+        language === "sk" ? "sk" : "en";
+
+
+    // Update <title> if it has translations
+    const title = document.querySelector("title[data-sk][data-en]");
+
+    if (title) {
+        document.title = title.dataset[language];
+    }
+
+
+    // Save language
+    localStorage.setItem("language", language);
+
+
+    // Notify other scripts
+    window.dispatchEvent(
+        new Event("languageChanged")
+    );
+}
 
 
 // Set selector to saved language
-
 if (languageSelect) {
 
     languageSelect.value = currentLanguage;
 
+    languageSelect.addEventListener("change", function () {
+
+        setLanguage(this.value);
+
+    });
+
 }
 
+
+// Apply saved language immediately
+setLanguage(currentLanguage);
 
 
 /* ========================================

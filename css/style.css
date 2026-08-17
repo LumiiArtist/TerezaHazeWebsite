@@ -795,19 +795,17 @@ CONTACT DETAILS
 }
 
 
-/* ----------------------------------------
-INSTAGRAM
----------------------------------------- */
+/* ========================================
+   INSTAGRAM
+======================================== */
 
 .instagram-link {
     display: inline-flex;
 
     align-items: center;
-
     justify-content: center;
 
     width: 52px;
-
     height: 52px;
 
     margin-top: 23px;
@@ -816,42 +814,19 @@ INSTAGRAM
 }
 
 
-.instagram-placeholder {
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
+.instagram-logo {
+    display: block;
 
     width: 50px;
-
     height: 50px;
 
-    border-radius: 13px;
-
-    background: linear-gradient(
-        135deg,
-        #515bd4,
-        #8134af 35%,
-        #dd2a7b 65%,
-        #feda77
-    );
-
-    color: white;
-
-    font-family: Arial, sans-serif;
-
-    font-size: 13px;
-
-    font-weight: bold;
-
-    letter-spacing: 1px;
+    object-fit: contain;
 
     transition: transform 0.2s ease;
 }
 
 
-.instagram-link:hover .instagram-placeholder {
+.instagram-link:hover .instagram-logo {
     transform: scale(1.06);
 }
 

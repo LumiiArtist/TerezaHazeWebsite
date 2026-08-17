@@ -25,13 +25,21 @@ const galleryData = {
             "assets/images/cs/1808_Tereza_166_FB (1).jpg",
             "assets/images/cs/Cyber Ciri.jpg",
             "assets/images/cs/IMG_1918.png",
+            
             "assets/images/cs/IMG_4578.jpg",
             "assets/images/cs/Medusa.JPG",
             "assets/images/cs/vila.jpg",
             "assets/images/cs/armor.jpg",
+            
             "assets/images/cs/poison.jpg",
             "assets/images/cs/medusa2.jpg",
-            "assets/images/cs/Mercy1.jpg",
+            "assets/images/morecs/Mercy exchange.JPG",
+            "assets/images/morecs/_W2A78432 copy.JPG",
+
+            "assets/images/morecs/A2-10.jpg",
+            "assets/images/morecs/Gaera Black TLAC-6.jpg",
+            "assets/images/morecs/IMG_39823.jpg",
+            "assets/images/morecs/IMG-03-2024-23-56-42.jpg",
         ]
 
     },
@@ -58,6 +66,13 @@ const galleryData = {
             "assets/images/rekvizity/4B4B381C-E049-4B1C-952A-343FD5624E52.jpg",
             "assets/images/rekvizity/IMG_3256.jpg",
             "assets/images/rekvizity/IMG_5133.png",
+
+            "assets/images/newrek/head.jpeg",
+            "assets/images/newrek/kasa.jpeg",
+            "assets/images/newrek/neck.jpeg",
+            "assets/images/newrek/shoe.jpeg",
+            "assets/images/rekvizity/fugly.jpeg",
+
         ]
 
     },
@@ -343,12 +358,18 @@ function updateGalleryText() {
 
 
 /* ==========================================
-   PREVIOUS IMAGE
+   PREVIOUS IMAGES
 ========================================== */
 
 function showPrevious() {
 
-    currentIndex--;
+    const visibleImages = getVisibleImages();
+
+    currentIndex -= visibleImages;
+
+    if (currentIndex < 0) {
+        currentIndex = 0;
+    }
 
     updateCarousel();
 
@@ -356,29 +377,26 @@ function showPrevious() {
 
 
 /* ==========================================
-   NEXT IMAGE
+   NEXT IMAGES
 ========================================== */
 
 function showNext() {
 
-    const visibleImages =
-        getVisibleImages();
+    const visibleImages = getVisibleImages();
 
     const maxIndex =
         Math.max(
             0,
-            selectedGallery.images.length
-            - visibleImages
+            selectedGallery.images.length - visibleImages
         );
 
+    currentIndex += visibleImages;
 
-    if (currentIndex < maxIndex) {
-
-        currentIndex++;
-
-        updateCarousel();
-
+    if (currentIndex > maxIndex) {
+        currentIndex = maxIndex;
     }
+
+    updateCarousel();
 
 }
 
