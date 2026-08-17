@@ -845,7 +845,7 @@ metal: {
         en: "Metal"
     },
 
-    image: "assets/images/kridla/Metal.jpg",
+    image: "assets/images/kridla/Metal.JPG",
 
         production: {
         sk: "1-4 mesiace od nadobudnutia materiálov",
