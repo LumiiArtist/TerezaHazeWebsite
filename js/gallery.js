@@ -21,7 +21,7 @@ const galleryData = {
         },
 
         images: [
-            "assets/images/cs/IMG_7238761.jpg",
+            "assets/images/cs/IMG_7238761.JPG",
             "assets/images/cs/1808_Tereza_166_FB (1).jpg",
             "assets/images/cs/Cyber Ciri.jpg",
             "assets/images/cs/IMG_1918.png",
