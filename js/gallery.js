@@ -24,12 +24,12 @@ const galleryData = {
             "assets/images/cs/IMG_7238761.JPG",
             "assets/images/cs/1808_Tereza_166_FB (1).jpg",
             "assets/images/cs/Cyber Ciri.jpg",
-            "assets/images/cs/IMG_1918.png",
+            "assets/images/cs/IMG_1918.PNG",
             
             "assets/images/cs/IMG_4578.jpg",
             "assets/images/cs/Medusa.JPG",
             "assets/images/cs/vila.jpg",
-            "assets/images/cs/armor.jpg",
+            "assets/images/cs/armor.JPG",
             
             "assets/images/cs/poison.jpg",
             "assets/images/cs/medusa2.jpg",
@@ -39,7 +39,7 @@ const galleryData = {
             "assets/images/morecs/A2-10.jpg",
             "assets/images/morecs/Gaera Black TLAC-6.jpg",
             "assets/images/morecs/IMG_39823.jpg",
-            "assets/images/morecs/IMG-03-2024-23-56-42.jpg",
+            "assets/images/morecs/IMG-03-2024-23-56-42.JPG",
         ]
 
     },
@@ -63,8 +63,8 @@ const galleryData = {
 
         images: [
             "assets/images/rekvizity/5E1D54E6-C6A9-454F-8494-F90CB84E178C.jpg",
-            "assets/images/rekvizity/4B4B381C-E049-4B1C-952A-343FD5624E52.jpg",
-            "assets/images/rekvizity/IMG_3256.jpg",
+            "assets/images/rekvizity/4B4B381C-E049-4B1C-952A-343FD5624E52.JPG",
+            "assets/images/rekvizity/IMG_3256.JPG",
             "assets/images/rekvizity/IMG_5133.png",
 
             "assets/images/newrek/head.jpeg",
@@ -97,8 +97,8 @@ const galleryData = {
         images: [
             "assets/images/oblecenie a outfity/IMG_0919.jpg",
             "assets/images/oblecenie a outfity/IMG_5479.jpg",
-            "assets/images/oblecenie a outfity/IMG_9158.jpg",
-            "assets/images/oblecenie a outfity/IMG_2242.jpg",
+            "assets/images/oblecenie a outfity/IMG_9158.JPG",
+            "assets/images/oblecenie a outfity/IMG_2242.JPG",
 
             "assets/images/ct/IMG_5243.jpeg",
             "assets/images/ct/IMG_7611.jpeg",

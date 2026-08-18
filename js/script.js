@@ -85,7 +85,7 @@ const items = {
             en: "Bloody"
         },
 
-        image: "assets/images/topy/redblack.jpg",
+        image: "assets/images/topy/redblack.JPG",
 
         production: {
             sk: "14 dní od nadobudnutia materiálov",
@@ -233,7 +233,7 @@ const items = {
             en: "Butterfly top"
         },
 
-        image: "assets/images/topy/motyliefront.jpg",
+        image: "assets/images/topy/motyliefront.JPG",
 
         production: {
             sk: "14 dní od nadobudnutia materiálov",
@@ -307,7 +307,7 @@ const items = {
             en: "Cyber top"
         },
 
-        image: "assets/images/topy/notcyberpunk.jpg",
+        image: "assets/images/topy/notcyberpunk.JPG",
 
         production: {
             sk: "14 dní od nadobudnutia materiálov",
@@ -1103,7 +1103,7 @@ metal: {
         en: "Medusa Head"
     },
 
-    image: "assets/images/ostatne/ELG-20220812-0461-404 2.jpg",
+    image: "assets/images/ostatne/ELG-20220812-0461-404 2.JPG",
 
     production: {
         sk: "len prenájom (keby je to do filmu alebo nejakého zujímavehého projektu, tak by som mooožno spravila aj novú.. bolo to náročné)",
@@ -1234,7 +1234,7 @@ metal: {
         en: "Silver boots"
     },
 
-    image: "assets/images/ostatne/IMG_7653.jpg",
+    image: "assets/images/ostatne/IMG_7653.JPG",
 
     production: {
         sk: "14 dní od nadobudnutia materiálov",
