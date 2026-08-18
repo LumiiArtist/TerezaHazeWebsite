@@ -45,64 +45,64 @@ const designs = [
     },
 
     {
-        image: "IMG_7001 2.jpg",
+        image: "IMG_7001 2.JPG",
         price: "400€ / 900€",
         noteSk: "(podľa typu materiálu)",
         noteEn: "(depending on the type of material)"
     },
 
     {
-        image: "IMG_7020.jpg",
+        image: "IMG_7020.JPG",
         price: "400€"
     },
 
     {
-        image: "IMG_7012 2.jpg",
+        image: "IMG_7012 2.JPG",
         price: "400€"
     },
 
     {
-        image: "IMG_7008.jpg",
+        image: "IMG_7008.JPG",
         price: "300€"
     },
 
     {
-        image: "IMG_7013.jpg",
+        image: "IMG_7013.JPG",
         price: "150€"
     },
 
     {
-        image: "IMG_7010.jpg",
+        image: "IMG_7010.JPG",
         price: "200€"
     },
 
     {
-        image: "IMG_7016.jpg",
+        image: "IMG_7016.JPG",
         price: "150€"
     },
 
     {
-        image: "IMG_7005.jpg",
+        image: "IMG_7005.JPG",
         price: "100€"
     },
 
     {
-        image: "IMG_6998 2.jpg",
+        image: "IMG_6998 2.JPG",
         price: "450€"
     },
 
     {
-        image: "IMG_7011.jpg",
+        image: "IMG_7011.JPG",
         price: "250€"
     },
 
     {
-        image: "IMG_7014 3.jpg",
+        image: "IMG_7014 3.JPG",
         price: "150€"
     },
 
     {
-        image: "IMG_7004.jpg",
+        image: "IMG_7004.JPG",
         price: "150€"
     },
 
