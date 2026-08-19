@@ -24,12 +24,12 @@ const galleryData = {
             "assets/images/cs/IMG_7238761.JPG",
             "assets/images/cs/1808_Tereza_166_FB (1).jpg",
             "assets/images/cs/Cyber Ciri.jpg",
-            "assets/images/cs/IMG_1918.PNG",
+            "assets/images/cs/armor.JPG",
             
             "assets/images/cs/IMG_4578.jpg",
             "assets/images/cs/Medusa.JPG",
             "assets/images/cs/vila.jpg",
-            "assets/images/cs/armor.JPG",
+            "assets/images/cs/IMG_1918.PNG",
             
             "assets/images/cs/poison.jpg",
             "assets/images/cs/medusa2.jpg",
@@ -39,7 +39,7 @@ const galleryData = {
             "assets/images/morecs/A2-10.jpg",
             "assets/images/morecs/Gaera Black TLAC-6.jpg",
             "assets/images/morecs/IMG_39823.jpg",
-            "assets/images/morecs/IMG-03-2024-23-56-42.JPG",
+            "assets/images/OC.jpeg",
         ]
 
     },
@@ -52,7 +52,7 @@ const galleryData = {
     props: {
 
         title: {
-            sk: "REKVIZITY A DOPLŇKY",
+            sk: "REKVIZITY A DOPLNKY",
             en: "PROPS AND ACCESSORIES"
         },
 
